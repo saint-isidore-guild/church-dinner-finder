@@ -1,0 +1,23 @@
+plugins {
+    id "com.moowork.node" version "1.0.1"
+}
+
+node {
+    version = '6.9.1'
+}
+
+task bootRun(type: NpmTask, dependsOn: 'npmInstall') {
+    group = 'application'
+    description = 'Start client side server'
+    args = ['run', 'start']
+}
+
+task test(type: NpmTask, dependsOn: 'npmInstall') {
+    group = 'verification'
+    description = 'Execute unit tests'
+    args = ['run', 'test']
+}
+
+task integrationTest(type: NpmTask, dependsOn: 'npmInstall') {
+    args = ['run', 'e2e']
+}
