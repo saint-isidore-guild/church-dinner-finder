@@ -1,4 +1,4 @@
-package church.dinner.finder
+package com.miketruso.churchdinners
 
 import grails.core.GrailsApplication
 import grails.util.Environment

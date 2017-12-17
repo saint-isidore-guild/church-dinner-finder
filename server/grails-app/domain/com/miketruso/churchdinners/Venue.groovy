@@ -1,5 +1,8 @@
 package com.miketruso.churchdinners
 
+import grails.rest.Resource
+
+@Resource(uri="/venue")
 class Venue {
 
     String name
@@ -13,6 +16,10 @@ class Venue {
     Double longitude
 
     static constraints = {
+        description nullable: true
+        address2 nullable: true
+        latitude nullable: true
+        longitude nullable: true
 
     }
 }

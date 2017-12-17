@@ -1,0 +1,19 @@
+<div class="container">
+  <h1>Venue List</h1>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Address 1</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let venue of venues">
+      <td>{{ venue.name }}</td>
+      <td>{{ venue.address1 }}</td>
+      <td><a href="/show/{{venue.id}}">Show Detail</a></td>
+    </tr>
+    </tbody>
+  </table>
+</div>

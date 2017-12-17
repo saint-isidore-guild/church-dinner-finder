@@ -1,4 +1,4 @@
-package church.dinner.finder
+package com.miketruso.churchdinners
 
 class BootStrap {
 

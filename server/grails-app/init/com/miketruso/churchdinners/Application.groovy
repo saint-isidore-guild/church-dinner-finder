@@ -1,4 +1,4 @@
-package church.dinner.finder
+package com.miketruso.churchdinners
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration

@@ -1,5 +1,10 @@
 package com.miketruso.churchdinners
 
+import grails.rest.*
+
+import java.time.ZonedDateTime
+
+@Resource(uri='/event')
 class Event {
 
     String name
@@ -8,8 +13,8 @@ class Event {
     String email
     String phone
     String organizer
-    Date startTime
-    Date endTime
+    ZonedDateTime startTime
+    ZonedDateTime endTime
 
     Venue venue
     EventCategory category
