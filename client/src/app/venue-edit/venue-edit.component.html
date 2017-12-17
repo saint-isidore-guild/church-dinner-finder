@@ -1,0 +1,40 @@
+<div class="container">
+  <h1>Edit Venue</h1>
+  <div class="row">
+    <div class="col-md-6">
+      <form (ngSubmit)="updateVenue(venue.id)" #venueForm="ngForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" [(ngModel)]="venue.name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="name">Address 1</label>
+          <input type="text" class="form-control" [(ngModel)]="venue.address1" name="address1" required>
+        </div>
+        <div class="form-group">
+          <label for="name">Address 2</label>
+          <input type="text" class="form-control" [(ngModel)]="venue.address2" name="address2">
+        </div>
+        <div class="form-group">
+          <label for="name">City</label>
+          <input type="text" class="form-control" [(ngModel)]="venue.city" name="city" required>
+        </div>
+        <div class="form-group">
+          <label for="name">State</label>
+          <input type="text" class="form-control" [(ngModel)]="venue.state" name="state" required>
+        </div>
+        <div class="form-group">
+          <label for="name">Postal Code</label>
+          <input type="number" class="form-control" [(ngModel)]="venue.zip" name="postalCode" required>
+        </div>
+        <div class="form-group">
+          <label for="name">Phone Number</label>
+          <input type="text" class="form-control" [(ngModel)]="venue.phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-success" [disabled]="!venueForm.form.valid">Update</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

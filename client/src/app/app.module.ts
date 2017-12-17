@@ -10,13 +10,19 @@ import { AppComponent } from './app.component';
 // import { NavService } from './nav/nav.service';
 import { AppRoutingModule } from "./app-routing.module";
 import { VenueComponent } from './venue/venue.component';
+import { VenueCreateComponent } from './venue-create/venue-create.component';
+import { VenueDetailComponent } from './venue-detail/venue-detail.component';
+import { VenueEditComponent } from './venue-edit/venue-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     // NavComponent,
     IndexComponent,
-    VenueComponent
+    VenueComponent,
+    VenueCreateComponent,
+    VenueDetailComponent,
+    VenueEditComponent
   ],
   imports: [
     BrowserModule,

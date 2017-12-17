@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>{{ venue.name }}</h1>
+  <dl class="list">
+    <dt>Address 1</dt>
+    <dd>{{ venue.address1 }}</dd>
+    <dt>Address 2</dt>
+    <dd>{{ venue.address2 }}</dd>
+    <dt>City</dt>
+    <dd>{{ venue.city }}</dd>
+    <dt>Postal Code</dt>
+    <dd>{{ venue.zip }}</dd>
+    <dt>Phone Number</dt>
+    <dd>{{ venue.phone }}</dd>
+  </dl>
+  <div class="row">
+    <div class="col-md-12">
+      <a [routerLink]="['/venue-edit', venue.id]" class="btn btn-success">EDIT</a>
+      <button class="btn btn-danger" type="button" (click)="deleteVenue(venue.id)">DELETE</button>
+
+    </div>
+  </div>
+</div>
