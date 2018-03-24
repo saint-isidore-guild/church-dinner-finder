@@ -13,6 +13,10 @@ import { VenueComponent } from './venue/venue.component';
 import { VenueCreateComponent } from './venue-create/venue-create.component';
 import { VenueDetailComponent } from './venue-detail/venue-detail.component';
 import { VenueEditComponent } from './venue-edit/venue-edit.component';
+import { EventComponent } from './event/event.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { EventCreateComponent } from './event-create/event-create.component';
+
 
 @NgModule({
   declarations: [
@@ -22,13 +26,16 @@ import { VenueEditComponent } from './venue-edit/venue-edit.component';
     VenueComponent,
     VenueCreateComponent,
     VenueDetailComponent,
-    VenueEditComponent
+    VenueEditComponent,
+    EventComponent,
+    EventCreateComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
+    AngularFontAwesomeModule,
     NgbModule.forRoot()
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],

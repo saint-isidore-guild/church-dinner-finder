@@ -1,0 +1,27 @@
+<div class="container">
+  <h1>Event List
+    <a [routerLink]="['/event-create']" class="btn btn-outline-primary btn-lg">
+      <fa name="plus" ></fa> Add
+    </a>
+  </h1>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Start Time</th>
+      <th>End Time</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let event of events">
+      <td>{{ event.name }}</td>
+      <td>{{ event.description }}</td>
+      <td>{{ event.startTime }}</td>
+      <td>{{ event.endTime }}</td>
+      <td><a href="/show/{{event.id}}">Show Detail</a></td>
+    </tr>
+    </tbody>
+  </table>
+</div>

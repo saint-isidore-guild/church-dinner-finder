@@ -23,3 +23,7 @@ task test(type: YarnTask, dependsOn: 'yarn') {
 task integrationTest(type: YarnTask, dependsOn: 'yarn') {
     args = ['run', 'e2e']
 }
+
+task clean(type: YarnTask) {
+    args = ['cache', 'clean']
+}

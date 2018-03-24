@@ -20,6 +20,5 @@ class Venue {
         address2 nullable: true
         latitude nullable: true
         longitude nullable: true
-
     }
 }
