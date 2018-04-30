@@ -1,10 +1,7 @@
 package com.miketruso.churchdinners
 
-import grails.rest.*
-
 import java.time.ZonedDateTime
 
-@Resource(uri='/event')
 class Event {
 
     String name

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
+import moment = require("moment");
 
 @Component({
   selector: 'app-event-create',
@@ -21,6 +22,8 @@ export class EventCreateComponent implements OnInit {
   }
 
   saveEvent() {
+      this.event.startTime = moment(this.event.startTime).valueOf();
+      this.event.endTime = moment(this.event.endTime).valueOf();
       this.http.post('http://localhost:8080/event', this.event)
           .subscribe(res => {
                   let id = res['id'];

@@ -16,6 +16,7 @@ import { VenueEditComponent } from './venue-edit/venue-edit.component';
 import { EventComponent } from './event/event.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { EventCreateComponent } from './event-create/event-create.component';
+import { MomentModule } from 'ngx-moment'
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { EventCreateComponent } from './event-create/event-create.component';
     HttpClientModule,
     AppRoutingModule,
     AngularFontAwesomeModule,
+    MomentModule,
     NgbModule.forRoot()
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],

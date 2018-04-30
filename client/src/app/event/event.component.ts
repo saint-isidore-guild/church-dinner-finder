@@ -13,7 +13,7 @@ export class EventComponent implements OnInit {
     constructor(private http: HttpClient) { }
 
     ngOnInit() {
-        this.http.get('http://localhost:8080/event').subscribe(data => {
+        this.http.get('http://localhost:8080/event/').subscribe(data => {
             this.events = data;
         });
     }
