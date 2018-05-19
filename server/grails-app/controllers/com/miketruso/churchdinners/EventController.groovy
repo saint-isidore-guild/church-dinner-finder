@@ -14,17 +14,16 @@ class EventController {
 	static responseFormats = ['json', 'xml']
 	
     def index() {
-        def events = Event.list().collect {
-            [
-                    id: it.id,
-                    name: it.name,
-                    description: it.description,
-                    startTime: it.startTime.toEpochSecond(),
-                    endTime: it.endTime.toEpochSecond(),
-                    website: it.website
-            ]
-        }
+        def events = Event.list().collect { createEventMap(it) }
         render events as JSON
+    }
+
+    def show(Event event) {
+        if (!event) {
+            render status: HttpStatus.BAD_REQUEST
+        }
+        Map eventMap = createEventMap(event)
+        render eventMap as JSON
     }
 
     @Transactional
@@ -47,6 +46,24 @@ class EventController {
         }
         response.status = HttpStatus.CREATED.value()
         render ([id: event.id] as JSON)
+    }
+
+    @Transactional
+    def delete(Event event){
+        event.delete()
+        render status: HttpStatus.NO_CONTENT
+    }
+
+    Map createEventMap(Event event) {
+        [
+                id: event.id,
+                name: event.name,
+                description: event.description,
+                startTime: event.startTime.toEpochSecond(),
+                endTime: event.endTime.toEpochSecond(),
+                website: event.website,
+                venue: event.venue.id
+        ]
     }
 }
 

@@ -20,7 +20,7 @@
       <td>{{ event.description }}</td>
       <td>{{ (event.startTime | amFromUnix)  | amDateFormat:'MM/DD/YY hh:mm A' }}</td>
       <td>{{ (event.endTime | amFromUnix) | amDateFormat:'MM/DD/YY hh:mm A' }}</td>
-      <td><a href="/show/{{event.id}}">Show Detail</a></td>
+      <td><a [routerLink]="['/event-details', event.id]">Show Detail</a></td>
     </tr>
     </tbody>
   </table>

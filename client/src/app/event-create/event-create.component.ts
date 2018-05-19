@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
+import { Event} from "../event/event.component";
 import moment = require("moment");
 
 @Component({
@@ -8,9 +9,10 @@ import moment = require("moment");
   templateUrl: './event-create.component.html',
   styleUrls: ['./event-create.component.css']
 })
+
 export class EventCreateComponent implements OnInit {
 
-  event = {};
+  event: Event = new Event(null, '', '', '', '', '', '', '', '', null);
   venues: any;
 
   constructor(private http: HttpClient, private router: Router) { }

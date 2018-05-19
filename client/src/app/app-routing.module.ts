@@ -7,6 +7,7 @@ import {VenueDetailComponent} from "./venue-detail/venue-detail.component";
 import {VenueEditComponent} from "./venue-edit/venue-edit.component";
 import {EventComponent} from "./event/event.component";
 import {EventCreateComponent} from "./event-create/event-create.component";
+import {EventDetailsComponent} from "./event-details/event-details.component";
 
 
 const routes: Routes = [
@@ -40,8 +41,13 @@ const routes: Routes = [
         component: EventCreateComponent,
         data: { title: 'Add Event' }
     },
+    {
+        path: 'event-details/:id',
+        component: EventDetailsComponent,
+        data: { title: 'Event Details' }
+    },
     { path: '',
-        redirectTo: '/venues',
+        redirectTo: '/events',
         pathMatch: 'full'
     }
 ];

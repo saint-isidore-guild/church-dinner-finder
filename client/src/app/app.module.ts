@@ -16,7 +16,8 @@ import { VenueEditComponent } from './venue-edit/venue-edit.component';
 import { EventComponent } from './event/event.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { EventCreateComponent } from './event-create/event-create.component';
-import { MomentModule } from 'ngx-moment'
+import { MomentModule } from 'ngx-moment';
+import { EventDetailsComponent } from './event-details/event-details.component'
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { MomentModule } from 'ngx-moment'
     VenueDetailComponent,
     VenueEditComponent,
     EventComponent,
-    EventCreateComponent
+    EventCreateComponent,
+    EventDetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -16,7 +16,7 @@
     <tr *ngFor="let venue of venues">
       <td>{{ venue.name }}</td>
       <td>{{ venue.address1 }}</td>
-      <td><a href="/show/{{venue.id}}">Show Detail</a></td>
+      <td><a [routerLink]="['/venue-details', venue.id]">Show Detail</a></td>
     </tr>
     </tbody>
   </table>

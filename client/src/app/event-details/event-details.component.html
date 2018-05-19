@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>{{ event.name }}</h1>
+  <dl class="list">
+    <dt>Description</dt>
+    <dd>{{ event.description }}</dd>
+    <dt>Website</dt>
+    <dd>{{ event.website }}</dd>
+    <dt>Phone</dt>
+    <dd>{{ event.phone }}</dd>
+    <dt>Email</dt>
+    <dd>{{ event.email }}</dd>
+    <dt>Start Time</dt>
+    <dd>{{ (event.startTime | amFromUnix)  | amDateFormat:'MM/DD/YY hh:mm A' }}</dd>
+    <dt>End Time</dt>
+    <dd>{{ (event.endTime | amFromUnix)  | amDateFormat:'MM/DD/YY hh:mm A' }}</dd>
+    <dt>Venue</dt>
+    <dd>{{ event.venue }}</dd>
+  </dl>
+  <div class="row">
+    <div class="col-md-12">
+      <a [routerLink]="['/']" class="btn btn-outline-primary">Back</a>
+      <a [routerLink]="['/event-edit', event.id]" class="btn btn-success">Edit</a>
+      <button class="btn btn-danger" type="button" (click)="deleteEvent(event.id)">Delete</button>
+    </div>
+  </div>
+</div>
