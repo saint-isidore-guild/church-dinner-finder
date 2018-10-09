@@ -4,24 +4,36 @@
       <fa name="plus" ></fa> Add
     </a>
   </h1>
-  <table class="table">
-    <thead>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Start Time</th>
-      <th>End Time</th>
-      <th>Action</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr *ngFor="let event of events">
-      <td>{{ event.name }}</td>
-      <td>{{ event.description }}</td>
-      <td>{{ (event.startTime | amFromUnix)  | amDateFormat:'MM/DD/YY hh:mm A' }}</td>
-      <td>{{ (event.endTime | amFromUnix) | amDateFormat:'MM/DD/YY hh:mm A' }}</td>
-      <td><a [routerLink]="['/event-details', event.id]">Show Detail</a></td>
-    </tr>
-    </tbody>
-  </table>
+  <div class="event-list">
+    <div class="event-row row" *ngFor="let event of events">
+      <div class="month-day col-xs-2">
+        <div>{{ (event.startTime | amFromUnix)  | amDateFormat:'D' }}</div>
+        <div>{{ (event.startTime | amFromUnix)  | amDateFormat:'MMM' }}</div>
+      </div>
+      <div class="col-xs-10">
+        <h3><a [routerLink]="['/event-details', event.id]">{{ event.name }}</a></h3>
+        <div>{{ (event.startTime | amFromUnix)  | amDateFormat:'h A' }} | {{ event.venue.name }}</div>
+      </div>
+    </div>
+  </div>
+  <!--<table class="table">-->
+    <!--<thead>-->
+    <!--<tr>-->
+      <!--<th>Name</th>-->
+      <!--<th>Description</th>-->
+      <!--<th>Start Time</th>-->
+      <!--<th>End Time</th>-->
+      <!--<th>Action</th>-->
+    <!--</tr>-->
+    <!--</thead>-->
+    <!--<tbody>-->
+    <!--<tr *ngFor="let event of events">-->
+      <!--<td>{{ event.name }}</td>-->
+      <!--<td>{{ event.description }}</td>-->
+      <!--<td>{{ (event.startTime | amFromUnix)  | amDateFormat:'MM/DD/YY hh:mm A' }}</td>-->
+      <!--<td>{{ (event.endTime | amFromUnix) | amDateFormat:'MM/DD/YY hh:mm A' }}</td>-->
+      <!--<td><a [routerLink]="['/event-details', event.id]">Show Detail</a></td>-->
+    <!--</tr>-->
+    <!--</tbody>-->
+  <!--</table>-->
 </div>

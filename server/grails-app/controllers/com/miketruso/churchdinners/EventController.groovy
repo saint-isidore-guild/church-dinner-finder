@@ -11,10 +11,12 @@ import java.time.ZonedDateTime
 
 @ReadOnly
 class EventController {
-	static responseFormats = ['json', 'xml']
+	static responseFormats = ['json']
+
+    def eventService
 	
     def index() {
-        def events = Event.list().collect { createEventMap(it) }
+        def events = eventService.upcomingEvents().collect { createEventMap(it) }
         render events as JSON
     }
 
@@ -62,7 +64,10 @@ class EventController {
                 startTime: event.startTime.toEpochSecond(),
                 endTime: event.endTime.toEpochSecond(),
                 website: event.website,
-                venue: event.venue.id
+                venue: [
+                        id: event.venue.id,
+                        name: event.venue.name
+                        ]
         ]
     }
 }
