@@ -1,10 +1,16 @@
 ## Built with
 
 - Grails 3
-- Angular 5
+- VueJs
+- Vuetify
 
 ## Usage
-
+Server
 ```
-./gradlew bootRun --parallel
+./gradlew server:bootRun
+```
+
+Client
+```
+./gradlew client:bootRun 
 ```

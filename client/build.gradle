@@ -1,27 +1,17 @@
 plugins {
-    id "com.moowork.node" version "1.0.1"
+    id "com.moowork.node" version "1.2.0"
 }
 
 node {
-    version = '8.5.0'
-    yarnVersion = '1.0.2'
+    version = '8.12.0'
+    yarnVersion = '1.10.1'
     download = true
 }
 
 task bootRun(type: YarnTask, dependsOn: 'yarn') {
     group = 'application'
     description = 'Start client side server'
-    args = ['run', 'start']
-}
-
-task test(type: YarnTask, dependsOn: 'yarn') {
-    group = 'verification'
-    description = 'Execute unit tests'
-    args = ['run', 'test']
-}
-
-task integrationTest(type: YarnTask, dependsOn: 'yarn') {
-    args = ['run', 'e2e']
+    args = ['serve']
 }
 
 task clean(type: YarnTask) {
