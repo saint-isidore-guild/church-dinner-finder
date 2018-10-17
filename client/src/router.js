@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Event from './components/Event'
+import EventList from './views/event/List'
+import EventShow from './views/event/Show'
 
 Vue.use(Router)
 
@@ -11,7 +12,13 @@ export default new Router({
         {
             path: '/',
             name: 'EventList',
-            component: Event
+            component: EventList
+        },
+        {
+            path: '/events/:id',
+            name: 'EventShow',
+            component: EventShow,
+            props: true
         },
     ]
 })
