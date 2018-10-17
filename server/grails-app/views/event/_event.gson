@@ -1,0 +1,15 @@
+import com.miketruso.churchdinners.Event
+
+model {
+    Event event
+}
+
+json {
+    id event.id
+    name event.name
+    description event.description
+    startTime event.startTime.toEpochSecond()
+    endTime event.endTime.toEpochSecond()
+    website event.website
+    venue tmpl.'/venue/venue'(event.venue)
+}

@@ -16,16 +16,14 @@ class EventController {
     def eventService
 	
     def index() {
-        def events = eventService.upcomingEvents().collect { createEventMap(it) }
-        render events as JSON
+        render view: 'list', model: [events: eventService.upcomingEvents()]
     }
 
     def show(Event event) {
         if (!event) {
             render status: HttpStatus.BAD_REQUEST
         }
-        Map eventMap = createEventMap(event)
-        render eventMap as JSON
+        [event: event]
     }
 
     @Transactional
@@ -54,21 +52,6 @@ class EventController {
     def delete(Event event){
         event.delete()
         render status: HttpStatus.NO_CONTENT
-    }
-
-    Map createEventMap(Event event) {
-        [
-                id: event.id,
-                name: event.name,
-                description: event.description,
-                startTime: event.startTime.toEpochSecond(),
-                endTime: event.endTime.toEpochSecond(),
-                website: event.website,
-                venue: [
-                        id: event.venue.id,
-                        name: event.venue.name
-                        ]
-        ]
     }
 }
 

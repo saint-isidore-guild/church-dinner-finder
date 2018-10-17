@@ -1,0 +1,7 @@
+import com.miketruso.churchdinners.Event
+
+model {
+    List<Event> events
+}
+
+json tmpl.event(events)

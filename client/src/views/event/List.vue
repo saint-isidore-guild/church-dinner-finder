@@ -1,7 +1,7 @@
 <template>
     <div class="event-list">
         <v-container grid-list-md text-xs-center>
-            <h1>Event List</h1>
+            <h1>Upcoming Events</h1>
             <v-layout row wrap>
                 <v-flex v-for="event in events" :key="event.id" xs4>
                     <event-card :event="event"></event-card>
