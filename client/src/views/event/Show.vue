@@ -5,8 +5,8 @@
 </template>
 
 <script>
-    import axios from 'axios'
     import EventDetail from "../../components/EventDetail";
+    import ApiService from "../../services/ApiService";
     export default {
         name: "Show",
         components: {EventDetail},
@@ -17,8 +17,8 @@
             }
         },
         mounted() {
-            axios.get(`http://localhost:8080/event/${this.id}`).then((resp) => {
-                this.event = resp.data
+            ApiService.get(`/event/${this.id}`).then((data) => {
+                this.event = data
             })
         }
     }

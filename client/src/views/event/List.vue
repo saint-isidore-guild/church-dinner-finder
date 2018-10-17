@@ -12,8 +12,8 @@
 </template>
 
 <script>
-    import axios from 'axios'
     import EventCard from '../../components/EventCard'
+    import ApiService from '../../services/ApiService'
 
     export default {
         name: "List",
@@ -24,8 +24,8 @@
         },
         components: {EventCard},
         mounted() {
-            axios.get('http://localhost:8080/event/').then((resp) => {
-                this.events = resp.data
+            ApiService.get('/event').then((data) => {
+                this.events = data
             })
         }
     }
