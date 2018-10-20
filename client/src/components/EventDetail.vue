@@ -19,7 +19,11 @@
             <dt>Venue</dt>
             <dd>{{ event.venue.name }}</dd>
             <dt>Categories</dt>
-            <dd>{{ event.categories }}</dd>
+            <dd>
+                <span v-for="category in event.categories" xs4>
+                    <category-chip :category="category"></category-chip>
+                </span>
+            </dd>
         </dl>
         <v-btn  :href="event.website" target="_blank">More Information</v-btn>
     </v-container>
@@ -27,9 +31,11 @@
 </template>
 
 <script>
+    import CategoryChip from "./CategoryChip";
     export default {
         name: "EventDetail",
-        props: ['event']
+        props: ['event'],
+        components: {CategoryChip}
     }
 </script>
 
