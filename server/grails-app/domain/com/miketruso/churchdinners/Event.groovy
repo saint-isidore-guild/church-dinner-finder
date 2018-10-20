@@ -10,11 +10,12 @@ class Event {
     String email
     String phone
     String organizer
+    String costDescription
+    boolean hasCost
     ZonedDateTime startTime
     ZonedDateTime endTime
 
     Venue venue
-    EventCategory category
 
     static constraints = {
         name nullable: false
@@ -26,6 +27,7 @@ class Event {
         startTime nullable: false
         endTime nullable: false
         venue nullable: false
-        category nullable: true
+        hasCost nullable: false
+        costDescription nullable: true
     }
 }

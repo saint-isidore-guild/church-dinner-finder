@@ -20,10 +20,11 @@ class EventController {
     }
 
     def show(Event event) {
+        def categories = EventCategory.findAllByEvent(event)*.category
         if (!event) {
             render status: HttpStatus.BAD_REQUEST
         }
-        [event: event]
+        [event: event, categories: categories]
     }
 
     @Transactional
