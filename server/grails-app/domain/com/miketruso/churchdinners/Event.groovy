@@ -10,6 +10,8 @@ class Event {
     String email
     String phone
     String organizer
+    String costDescription
+    boolean hasCost
     ZonedDateTime startTime
     ZonedDateTime endTime
 
@@ -27,5 +29,7 @@ class Event {
         endTime nullable: false
         venue nullable: false
         category nullable: true
+        hasCost nullable: false
+        costDescription nullable: true
     }
 }

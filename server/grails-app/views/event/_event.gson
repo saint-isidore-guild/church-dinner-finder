@@ -12,4 +12,6 @@ json {
     endTime event.endTime.toEpochSecond()
     website event.website
     venue tmpl.'/venue/venue'(event.venue)
+    hasCost event.hasCost
+    costDescription event.costDescription
 }
