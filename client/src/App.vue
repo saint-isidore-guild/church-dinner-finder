@@ -4,7 +4,7 @@
                 app
                 :clipped-left="clipped"
         >
-            <v-toolbar-title v-text="title"></v-toolbar-title>
+            <router-link to="/"><v-toolbar-title v-text="title" to="/"></v-toolbar-title></router-link>
             <v-spacer></v-spacer>
             <v-btn icon @click.stop="rightDrawer = !rightDrawer">
                 <v-icon>menu</v-icon>
@@ -47,7 +47,7 @@
                 miniVariant: false,
                 right: true,
                 rightDrawer: false,
-                title: 'Church Dinner Finder'
+                title: 'Church Meal Finder'
             }
         }
     }
