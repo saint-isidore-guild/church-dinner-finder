@@ -4,7 +4,11 @@
                 app
                 :clipped-left="clipped"
         >
-            <router-link to="/"><v-toolbar-title v-text="title" to="/"></v-toolbar-title></router-link>
+            <router-link to="/" class="title-link">
+                <v-toolbar-title>
+                    Church Meal Finder <v-icon>near_me</v-icon>
+                </v-toolbar-title>
+            </router-link>
             <v-spacer></v-spacer>
             <v-btn icon @click.stop="rightDrawer = !rightDrawer">
                 <v-icon>menu</v-icon>
@@ -30,7 +34,7 @@
             </v-list>
         </v-navigation-drawer>
         <v-footer :fixed="fixed" app>
-            <span>&copy; 2017</span>
+            <span>&copy; 2018 <a href="https://saint-isidore-guild.github.io/">St. Isidore's Guild</a></span>
         </v-footer>
     </v-app>
 </template>
@@ -46,9 +50,15 @@
                 fixed: false,
                 miniVariant: false,
                 right: true,
-                rightDrawer: false,
-                title: 'Church Meal Finder'
+                rightDrawer: false
             }
         }
     }
 </script>
+
+<style scoped>
+    .title-link {
+        text-decoration: none;
+        color: inherit;
+    }
+</style>

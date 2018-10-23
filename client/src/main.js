@@ -3,13 +3,10 @@ import Vue from 'vue'
 import './plugins/vuetify'
 import router from './router'
 import App from './App.vue'
-import moment from 'moment'
+import {formatTimestamp} from "./util/DateUtil";
 
 Vue.config.productionTip = false
-Vue.filter('formatTimestamp', function (value) {
-    if (!value) return ''
-    return moment.unix(value).format('MM/DD/YY hh:mm A').valueOf()
-})
+Vue.filter('formatTimestamp', formatTimestamp)
 new Vue({
     router,
     render: h => h(App)

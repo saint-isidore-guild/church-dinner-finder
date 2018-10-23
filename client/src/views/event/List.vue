@@ -3,7 +3,7 @@
         <v-container grid-list-md text-xs-center>
             <h1>Upcoming Events</h1>
             <v-layout row wrap>
-                <v-flex v-for="event in events" :key="event.id" xs4>
+                <v-flex v-for="event in events" :key="event.id" md4 xs12>
                     <event-card :event="event"></event-card>
                 </v-flex>
             </v-layout>
