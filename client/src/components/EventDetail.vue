@@ -63,9 +63,6 @@
                     return formatStartAndEnd(this.event.startTime, this.event.endTime)
                 }
             }
-        },
-        computed: {
-
         }
     }
 </script>

@@ -16,10 +16,20 @@
                 event: {}
             }
         },
+        methods:{
+            getEvent(){
+                ApiService.get(`/event/${this.id}`).then((data) => {
+                    this.event = data
+                })
+            }
+        },
         mounted() {
-            ApiService.get(`/event/${this.id}`).then((data) => {
-                this.event = data
-            })
+            this.getEvent()
+        },
+        beforeRouteUpdate (to, from, next) {
+            this.id = to.params.id
+            this.getEvent()
+            next()
         }
     }
 </script>

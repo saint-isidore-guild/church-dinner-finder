@@ -10,6 +10,7 @@
                 </v-toolbar-title>
             </router-link>
             <v-spacer></v-spacer>
+            <event-search></event-search>
             <v-btn icon @click.stop="rightDrawer = !rightDrawer">
                 <v-icon>menu</v-icon>
             </v-btn>
@@ -41,8 +42,10 @@
 
 <script>
 
+    import EventSearch from "./components/EventSearch";
     export default {
         name: 'App',
+        components: {EventSearch},
         data() {
             return {
                 clipped: false,
