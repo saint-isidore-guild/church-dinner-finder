@@ -1,5 +1,6 @@
 package com.miketruso.churchdinners
 
+import com.miketruso.chrchdinners.EventSearchCommand
 import grails.gorm.transactions.ReadOnly
 import grails.gorm.transactions.Transactional
 import grails.converters.*
@@ -52,6 +53,11 @@ class EventController {
     def delete(Event event){
         event.delete()
         render status: HttpStatus.NO_CONTENT
+    }
+
+    def search(EventSearchCommand cmd) {
+        List<Event> events = eventService.search(cmd)
+        render view: 'list', model: [events: events]
     }
 }
 

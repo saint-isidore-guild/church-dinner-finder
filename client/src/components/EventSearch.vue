@@ -33,7 +33,7 @@
         },
         methods: {
             search() {
-                ApiService.get(`/event?q=${this.q}`).then((data) => {
+                ApiService.get(`/event/search?q=${this.q}`).then((data) => {
                     this.eventResults =data
                     this.$emit('input', data)
                 })
