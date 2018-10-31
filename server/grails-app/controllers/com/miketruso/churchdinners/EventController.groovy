@@ -1,8 +1,8 @@
 package com.miketruso.churchdinners
 
+import grails.converters.JSON
 import grails.gorm.transactions.ReadOnly
 import grails.gorm.transactions.Transactional
-import grails.converters.*
 import org.springframework.http.HttpStatus
 
 import java.time.Instant
@@ -11,10 +11,10 @@ import java.time.ZonedDateTime
 
 @ReadOnly
 class EventController {
-	static responseFormats = ['json']
+    static responseFormats = ['json']
 
     EventService eventService
-	
+
     def index() {
         render view: 'list', model: [events: eventService.upcomingEvents()]
     }
@@ -41,7 +41,7 @@ class EventController {
         event.startTime = startTime
         event.endTime = endTime
 
-        if (!event.save()){
+        if (!event.save()) {
             render status: HttpStatus.BAD_REQUEST
             return
         }
@@ -50,7 +50,7 @@ class EventController {
     }
 
     @Transactional
-    def delete(Event event){
+    def delete(Event event) {
         event.delete()
         render status: HttpStatus.NO_CONTENT
     }
