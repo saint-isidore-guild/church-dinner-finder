@@ -29,4 +29,8 @@ class Venue {
         latitude nullable: true
         longitude nullable: true
     }
+
+    static mapping = {
+        id generator: 'native', params: [sequence: 'seq_venue']
+    }
 }

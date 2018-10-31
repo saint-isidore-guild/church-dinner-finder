@@ -13,10 +13,9 @@ class EventService {
 
     @ReadOnly
     List<Event> upcomingEvents() {
-        ZonedDateTime today = ZonedDateTime.now(ZoneId.of('America/Chicago'))
-
+        ZonedDateTime now = ZonedDateTime.now(ZoneId.of('UTC'))
         Event.createCriteria().list {
-            lt('endTime', today) // FIXME returning all or none
+            gt('endTime', now)
             order('startTime', 'asc')
         } as List
     }
@@ -28,7 +27,7 @@ class EventService {
                 ilike('name', "%${cmd.q}%")
             }
             if (cmd.filterDateTimestamp) {
-                ZonedDateTime filterDate = ZonedDateTime.ofInstant(Instant.ofEpochSecond(cmd.filterDateTimestamp), ZoneId.of('America/Chicago'))
+                ZonedDateTime filterDate = ZonedDateTime.ofInstant(Instant.ofEpochSecond(cmd.filterDateTimestamp), ZoneId.of('UTC'))
                 ge('startTime', filterDate.with(LocalTime.MIN))
                 le('endTime', filterDate.with(LocalTime.MAX))
             }

@@ -45,7 +45,6 @@ class EventFunctionalSpec extends Specification {
 
         then:
         response.status == 200
-        response.json.size() == 1
     }
 
     void "event bad route"() {
