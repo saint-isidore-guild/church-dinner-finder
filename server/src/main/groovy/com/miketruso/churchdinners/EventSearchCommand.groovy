@@ -1,4 +1,4 @@
-package com.miketruso.chrchdinners
+package com.miketruso.churchdinners
 
 import grails.validation.Validateable
 

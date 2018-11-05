@@ -1,6 +1,5 @@
 package com.miketruso.churchdinners
 
-import com.miketruso.chrchdinners.EventSearchCommand
 import grails.gorm.transactions.ReadOnly
 import grails.gorm.transactions.Transactional
 import grails.converters.*
@@ -14,7 +13,7 @@ import java.time.ZonedDateTime
 class EventController {
 	static responseFormats = ['json']
 
-    def eventService
+    EventService eventService
 	
     def index() {
         render view: 'list', model: [events: eventService.upcomingEvents()]

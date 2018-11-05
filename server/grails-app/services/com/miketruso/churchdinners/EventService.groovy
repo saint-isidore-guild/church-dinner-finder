@@ -1,6 +1,5 @@
 package com.miketruso.churchdinners
 
-import com.miketruso.chrchdinners.EventSearchCommand
 import grails.gorm.transactions.ReadOnly
 import grails.gorm.transactions.Transactional
 
