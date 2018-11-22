@@ -35,4 +35,8 @@ class Event {
         costDescription nullable: true, maxSize: 255
         imageUrl nullable: true, maxSize: 1000
     }
+
+    static mapping = {
+        id generator: 'native', params: [sequence: 'seq_event']
+    }
 }

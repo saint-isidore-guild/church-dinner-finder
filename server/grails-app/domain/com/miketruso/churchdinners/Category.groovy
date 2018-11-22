@@ -10,4 +10,8 @@ class Category {
     static constraints = {
         name nullable: false, maxSize: 255
     }
+
+    static mapping = {
+        id generator: 'native', params: [sequence: 'seq_category']
+    }
 }

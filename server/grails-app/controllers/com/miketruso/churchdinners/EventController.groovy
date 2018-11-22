@@ -20,10 +20,11 @@ class EventController {
     }
 
     def show(Event event) {
-        def categories = EventCategory.findAllByEvent(event)*.category
         if (!event) {
             render status: HttpStatus.BAD_REQUEST
+            return
         }
+        def categories = EventCategory.findAllByEvent(event)*.category
         [event: event, categories: categories]
     }
 
@@ -36,8 +37,8 @@ class EventController {
 
         Event event = new Event()
         bindData(event, cmd, ['startTime', 'endTime'])
-        ZonedDateTime startTime = ZonedDateTime.ofInstant(Instant.ofEpochMilli(cmd.startTime), ZoneId.of('America/Chicago'))
-        ZonedDateTime endTime = ZonedDateTime.ofInstant(Instant.ofEpochMilli(cmd.endTime), ZoneId.of('America/Chicago'))
+        ZonedDateTime startTime = ZonedDateTime.ofInstant(Instant.ofEpochMilli(cmd.startTime), ZoneId.of('UTC'))
+        ZonedDateTime endTime = ZonedDateTime.ofInstant(Instant.ofEpochMilli(cmd.endTime), ZoneId.of('UTC'))
         event.startTime = startTime
         event.endTime = endTime
 
