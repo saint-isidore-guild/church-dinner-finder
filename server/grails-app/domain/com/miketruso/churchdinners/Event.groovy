@@ -11,6 +11,7 @@ class Event {
     String phone
     String organizer
     String costDescription
+    String imageUrl
     boolean hasCost
     ZonedDateTime startTime
     ZonedDateTime endTime
@@ -29,5 +30,6 @@ class Event {
         venue nullable: false
         hasCost nullable: false
         costDescription nullable: true
+        imageUrl nullable: true
     }
 }

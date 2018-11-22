@@ -1,9 +1,10 @@
 <template>
     <div class="event-list">
         <v-container grid-list-md text-xs-center>
+            <event-filters v-model="events"></event-filters>
             <h1>Upcoming Events</h1>
             <v-layout row wrap>
-                <v-flex v-for="event in events" :key="event.id" xs4>
+                <v-flex v-for="event in events" :key="event.id" md4 xs12>
                     <event-card :event="event"></event-card>
                 </v-flex>
             </v-layout>
@@ -14,6 +15,7 @@
 <script>
     import EventCard from '../../components/EventCard'
     import ApiService from '../../services/ApiService'
+    import EventFilters from "../../components/EventFilters";
 
     export default {
         name: "List",
@@ -22,7 +24,7 @@
                 events: []
             }
         },
-        components: {EventCard},
+        components: {EventFilters, EventCard},
         mounted() {
             ApiService.get('/event').then((data) => {
                 this.events = data
