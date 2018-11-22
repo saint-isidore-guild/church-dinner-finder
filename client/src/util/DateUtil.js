@@ -14,3 +14,7 @@ export const formatTimestamp = (timestamp) => {
     if (!timestamp) return ''
     return moment.unix(timestamp).format('MM/DD/YY hh:mm A').valueOf()
 };
+
+export const formatDatePickerLabel = (val) => {
+    return moment(val).format('dddd, MMMM Do YYYY')
+}

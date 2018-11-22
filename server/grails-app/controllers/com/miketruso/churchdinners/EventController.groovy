@@ -13,7 +13,7 @@ import java.time.ZonedDateTime
 class EventController {
 	static responseFormats = ['json']
 
-    def eventService
+    EventService eventService
 	
     def index() {
         render view: 'list', model: [events: eventService.upcomingEvents()]
@@ -53,6 +53,11 @@ class EventController {
     def delete(Event event){
         event.delete()
         render status: HttpStatus.NO_CONTENT
+    }
+
+    def search(EventSearchCommand cmd) {
+        List<Event> events = eventService.search(cmd)
+        render view: 'list', model: [events: events]
     }
 }
 
