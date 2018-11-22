@@ -2,6 +2,7 @@ import com.miketruso.churchdinners.Event
 
 model {
     Event event
+    List<Category> categories
 }
 
 json {
@@ -12,7 +13,7 @@ json {
     endTime event.endTime.toEpochSecond()
     website event.website
     venue tmpl.'/venue/venue'(event.venue)
+    categories tmpl.'/category/category'(categories)
     hasCost event.hasCost
     costDescription event.costDescription
-    imageUrl event.imageUrl
 }

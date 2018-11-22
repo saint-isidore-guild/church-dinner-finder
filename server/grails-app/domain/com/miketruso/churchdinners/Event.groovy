@@ -17,7 +17,6 @@ class Event {
     ZonedDateTime endTime
 
     Venue venue
-    EventCategory category
 
     static constraints = {
         name nullable: false
@@ -29,7 +28,6 @@ class Event {
         startTime nullable: false
         endTime nullable: false
         venue nullable: false
-        category nullable: true
         hasCost nullable: false
         costDescription nullable: true
         imageUrl nullable: true

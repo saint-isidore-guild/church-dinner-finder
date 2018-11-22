@@ -1,7 +1,9 @@
 import com.miketruso.churchdinners.Event
+import com.miketruso.churchdinners.Category
 
 model {
     Event event
+    List<Category> categories
 }
 
-json tmpl.event(event)
+json tmpl.event([event: event, categories: categories])

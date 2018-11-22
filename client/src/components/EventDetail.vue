@@ -12,6 +12,9 @@
                         <div>
                             <h1>{{ event.name }}
                                 <v-chip v-show="!event.hasCost">Free</v-chip>
+                                <span v-for="category in event.categories" :key="category.id" xs4>
+                                    <category-chip :category="category"></category-chip>
+                                </span>
                             </h1>
                             <h2>{{ event.description }}</h2>
                             <div>
@@ -45,18 +48,19 @@
                     </v-card-title>
                 </v-card>
             </v-flex>
-
         </v-layout>
     </v-container>
 
 </template>
 
 <script>
+    import CategoryChip from "./CategoryChip";
     import {formatStartAndEnd} from "../util/DateUtil";
 
     export default {
         name: "EventDetail",
         props: ['event'],
+        components: {CategoryChip},
         methods: {
             eventDateTime() {
                 if (this.event) {

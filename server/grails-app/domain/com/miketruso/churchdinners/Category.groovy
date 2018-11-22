@@ -1,10 +1,10 @@
 package com.miketruso.churchdinners
 
-class EventCategory {
+class Category {
 
-    Event event
-    Category category
+    String name
 
     static constraints = {
+        name nullable: false
     }
 }
