@@ -15,7 +15,7 @@ class EventService {
     List<Event> upcomingEvents() {
         ZonedDateTime today = ZonedDateTime.now(ZoneId.of('America/Chicago'))
 
-        Event.createCriteria().list() {
+        Event.createCriteria().list {
             lt('endTime', today) // FIXME returning all or none
             order('startTime', 'asc')
         } as List
@@ -23,7 +23,7 @@ class EventService {
 
     @ReadOnly
     List<Event> search(EventSearchCommand cmd) {
-        Event.createCriteria().list() {
+        Event.createCriteria().list {
             if (cmd.q) {
                 ilike('name', "%${cmd.q}%")
             }

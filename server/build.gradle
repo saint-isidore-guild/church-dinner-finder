@@ -18,6 +18,7 @@ apply plugin:"idea"
 apply plugin:"war"
 apply plugin:"org.grails.grails-web"
 apply plugin:"org.grails.plugins.views-json"
+apply plugin: 'codenarc'
 
 repositories {
     mavenLocal()
@@ -61,4 +62,10 @@ dependencies {
 bootRun {
     jvmArgs('-Dspring.output.ansi.enabled=always')
     addResources = true
+}
+
+codenarc {
+    toolVersion = '1.2.1'
+    reportFormat = 'text'
+    config =  resources.text.fromFile("${rootProject.projectDir}/gradle/codenarc/codenarc_rulesets.groovy")
 }
