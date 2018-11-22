@@ -8,8 +8,10 @@ import java.time.ZonedDateTime
 class BootStrap {
 
     def init = { servletContext ->
+        log.info('Bootstrap init')
         // initialize some data
         if (Environment.current != Environment.PRODUCTION && Event.count == 0) {
+            log.info('initialize some data ...')
             ZonedDateTime today = ZonedDateTime.now(ZoneId.of('UTC')) // store all dates as UTC
             Venue lourdes = new Venue(name: 'Our Lady of Lourdes', address1: '1 Lourdes Pl', city: 'Minneapolis', state: 'MN', zip: '55414').save(flush:true, failOnError:true)
             Venue stMark = new Venue(name: 'Church of St. Mark', address1: '2001 Dayton Ave', city: 'Saint Paul', state: 'MN', zip: '55104').save(flush:true, failOnError:true)
