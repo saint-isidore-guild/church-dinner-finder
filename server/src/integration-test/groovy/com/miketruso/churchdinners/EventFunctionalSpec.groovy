@@ -54,4 +54,43 @@ class EventFunctionalSpec extends Specification {
         then:
         response.status == 400
     }
+
+    void "category search"() {
+        given:
+        String categoryName = 'Breakfast'
+
+        when:
+        def response = rest.get("${baseUrl}/event/search?categories=${categoryName}")
+
+        then:
+        response.status == 200
+        response.json.size() == 1
+    }
+
+    void "category multiple"() {
+        when:
+        def response = rest.get("${baseUrl}/event/search?categories=Breakfast&categories=Festival")
+
+        then:
+        response.status == 200
+        response.json.size() == 2
+    }
+
+    void "search upcoming"() {
+        when:
+        def response = rest.get("${baseUrl}/event/search?upcoming=true")
+
+        then:
+        response.status == 200
+        response.json.size() == 2
+    }
+
+    void "root event endpoint returns upcoming"() {
+        when:
+        def response = rest.get("${baseUrl}/event")
+
+        then:
+        response.status == 200
+        response.json.size() == 2
+    }
 }

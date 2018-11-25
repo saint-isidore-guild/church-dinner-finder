@@ -54,7 +54,7 @@
         data() {
             return {
                 selectedCategories: [],
-                categories: ['Festival', 'Fish Fry', 'Pancake Breakfast', 'Octoberfest'],
+                categories: ['Festival', 'Fish Fry', 'Breakfast', 'Octoberfest'], // TODO vuex
                 eventResults: [],
                 filterDate: '',
                 dateMenu: false
@@ -63,7 +63,10 @@
         methods: {
             search() {
                 this.dateMenu = false
-                ApiService.get(`/event/search?categories=${this.selectedCategories}&filterDateTimestamp=${moment(this.filterDate).unix().valueOf()}`).then((data) => {
+                let timestamp = this.filterDate ? moment(this.filterDate).unix().valueOf() : ''
+                let cats = ''
+                this.selectedCategories.forEach((cat) => cats += `&categories=${cat}`)
+                ApiService.get(`/event/search?upcoming=true${cats}&filterDateTimestamp=${timestamp}`).then((data) => {
                     this.eventResults = data
                     this.$emit('input', data)
                 })

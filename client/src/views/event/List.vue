@@ -26,7 +26,7 @@
         },
         components: {EventFilters, EventCard},
         mounted() {
-            ApiService.get('/event').then((data) => {
+            ApiService.get('/event/search?upcoming=true').then((data) => {
                 this.events = data
             })
         }

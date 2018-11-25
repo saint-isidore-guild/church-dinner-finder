@@ -16,7 +16,7 @@ class EventController {
     EventService eventService
 
     def index() {
-        render view: 'list', model: [events: eventService.upcomingEvents()]
+        render view: 'list', model: [events: eventService.search(new EventSearchCommand(upcoming: true))]
     }
 
     def show(Event event) {
