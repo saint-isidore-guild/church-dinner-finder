@@ -1,6 +1,6 @@
 ---
 grails:
-    profile: angular
+    profile: rest-api
     codegen:
         defaultPackage: com.miketruso.churchdinners
     gorm:

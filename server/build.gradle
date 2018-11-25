@@ -55,7 +55,7 @@ dependencies {
     compile "org.postgresql:postgresql:$postgresqlVersion"
     
     console "org.grails:grails-console"
-    profile "org.grails.profiles:angular"
+    profile "org.grails.profiles:rest-api"
     runtime "org.glassfish.web:el-impl:2.1.2-b03"
     runtime "org.apache.tomcat:tomcat-jdbc"
     testCompile "org.grails:grails-gorm-testing-support"
