@@ -7,11 +7,15 @@ class EventSearchCommand implements Validateable {
     Long filterDateTimestamp
     List<String> categories
     Boolean upcoming
+    Long max
+    Long offset
 
     static constraints = {
         q nullable: true
         filterDateTimestamp nullable: true
         categories nullable: true
         upcoming nullable: true
+        max nullable: true
+        offset nullable: true
     }
 }

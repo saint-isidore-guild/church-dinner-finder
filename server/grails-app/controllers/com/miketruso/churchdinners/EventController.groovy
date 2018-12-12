@@ -16,7 +16,9 @@ class EventController {
     EventService eventService
 
     def index() {
-        render view: 'list', model: [events: eventService.search(new EventSearchCommand(upcoming: true))]
+        def events = eventService.search(new EventSearchCommand(upcoming: true))
+        Integer total = events.totalCount
+        render view: 'list', model: [events: events, total: total]
     }
 
     def show(Event event) {
@@ -57,8 +59,9 @@ class EventController {
     }
 
     def search(EventSearchCommand cmd) {
-        List<Event> events = eventService.search(cmd)
-        render view: 'list', model: [events: events]
+        def events = eventService.search(cmd)
+        Integer total = events.totalCount
+        render view: 'list', model: [events: events, total: total]
     }
 }
 

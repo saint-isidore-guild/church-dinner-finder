@@ -44,9 +44,8 @@
 </template>
 
 <script>
-    import ApiService from "../services/ApiService";
     import {formatDatePickerLabel} from "../util/DateUtil";
-    import moment from 'moment'
+    import moment from 'moment-timezone'
 
     export default {
         name: "EventFilters",
@@ -63,13 +62,8 @@
         methods: {
             search() {
                 this.dateMenu = false
-                let timestamp = this.filterDate ? moment(this.filterDate).unix().valueOf() : ''
-                let cats = ''
-                this.selectedCategories.forEach((cat) => cats += `&categories=${cat}`)
-                ApiService.get(`/event/search?upcoming=true${cats}&filterDateTimestamp=${timestamp}`).then((data) => {
-                    this.eventResults = data
-                    this.$emit('input', data)
-                })
+                let timestamp = this.filterDate ? moment(this.filterDate).utc().hour(0).unix().valueOf() : ''
+                this.$emit('input', {filterDateTimestamp: timestamp, categories: this.selectedCategories})
             }
         },
         computed: {

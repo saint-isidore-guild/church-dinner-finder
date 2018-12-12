@@ -12,6 +12,7 @@ dataSource {
     pooled = true
     url = 'jdbc:postgresql://localhost/churchmealfinder_' + envShortName
     username = 'churchmealfinder_' + envShortName
+//    logSql = true
 }
 
 grails.plugin.databasemigration.updateOnStart = true

@@ -8,6 +8,7 @@ import java.time.ZonedDateTime
 class BootStrap {
 
     def init = { servletContext ->
+        TimeZone.default = TimeZone.getTimeZone('UTC')
         log.info('Bootstrap init')
         // initialize some data
         if (Environment.current != Environment.PRODUCTION && Event.count == 0) {

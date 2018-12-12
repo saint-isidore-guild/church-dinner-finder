@@ -11,6 +11,7 @@
     "@babel/polyfill": "^7.0.0-rc.1",
     "axios": "^0.18.0",
     "moment": "^2.22.2",
+    "moment-timezone": "^0.5.23",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuetify": "^1.2.0"

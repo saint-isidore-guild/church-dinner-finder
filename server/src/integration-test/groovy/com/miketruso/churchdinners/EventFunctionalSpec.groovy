@@ -24,7 +24,7 @@ class EventFunctionalSpec extends Specification {
 
         then:
         response.status == 200
-        response.json.size() == 3
+        response.json.events.size() == 3
     }
 
     void "event name search"() {
@@ -33,7 +33,8 @@ class EventFunctionalSpec extends Specification {
 
         then:
         response.status == 200
-        response.json.size() == 1
+        response.json.events.size() == 1
+        response.json.total == 1
     }
 
     void "event date search"() {
@@ -64,7 +65,7 @@ class EventFunctionalSpec extends Specification {
 
         then:
         response.status == 200
-        response.json.size() == 1
+        response.json.events.size() == 1
     }
 
     void "category multiple"() {
@@ -73,7 +74,7 @@ class EventFunctionalSpec extends Specification {
 
         then:
         response.status == 200
-        response.json.size() == 2
+        response.json.events.size() == 2
     }
 
     void "search upcoming"() {
@@ -82,7 +83,7 @@ class EventFunctionalSpec extends Specification {
 
         then:
         response.status == 200
-        response.json.size() == 2
+        response.json.events.size() == 2
     }
 
     void "root event endpoint returns upcoming"() {
@@ -91,6 +92,6 @@ class EventFunctionalSpec extends Specification {
 
         then:
         response.status == 200
-        response.json.size() == 2
+        response.json.events.size() == 2
     }
 }

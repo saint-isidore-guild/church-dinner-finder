@@ -34,8 +34,8 @@
         methods: {
             search() {
                 ApiService.get(`/event/search?q=${this.q}`).then((data) => {
-                    this.eventResults =data
-                    this.$emit('input', data)
+                    this.eventResults =data.events
+                    this.$emit('input', data.events)
                 })
             }
         },
