@@ -14,7 +14,8 @@
     "moment-timezone": "^0.5.23",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
-    "vuetify": "^1.2.0"
+    "vuetify": "^1.2.0",
+    "vuetify-datetime-picker": "^1.0.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0",

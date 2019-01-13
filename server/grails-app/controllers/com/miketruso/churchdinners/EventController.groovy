@@ -39,11 +39,11 @@ class EventController {
 
         Event event = new Event()
         bindData(event, cmd, ['startTime', 'endTime'])
-        ZonedDateTime startTime = ZonedDateTime.ofInstant(Instant.ofEpochMilli(cmd.startTime), ZoneId.of('UTC'))
-        ZonedDateTime endTime = ZonedDateTime.ofInstant(Instant.ofEpochMilli(cmd.endTime), ZoneId.of('UTC'))
+        ZonedDateTime startTime = ZonedDateTime.ofInstant(Instant.ofEpochSecond(cmd.startTime), ZoneId.of('UTC'))
+        ZonedDateTime endTime = ZonedDateTime.ofInstant(Instant.ofEpochSecond(cmd.endTime), ZoneId.of('UTC'))
         event.startTime = startTime
         event.endTime = endTime
-
+        event.hasCost = event.costDescription ? true : false
         if (!event.save()) {
             render status: HttpStatus.BAD_REQUEST
             return

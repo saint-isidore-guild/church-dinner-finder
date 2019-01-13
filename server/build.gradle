@@ -73,6 +73,7 @@ codenarc {
     reportFormat = 'text'
     config = resources.text.fromFile("${rootProject.projectDir}/gradle/codenarc/codenarc_rulesets.groovy")
 }
+
 sourceSets {
     main {
         resources {
