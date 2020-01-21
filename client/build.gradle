@@ -17,3 +17,7 @@ task bootRun(type: YarnTask, dependsOn: 'yarn') {
 task clean(type: YarnTask) {
     args = ['cache', 'clean']
 }
+
+task upgrade(type: YarnTask) {
+    args = ['upgrade']
+}
