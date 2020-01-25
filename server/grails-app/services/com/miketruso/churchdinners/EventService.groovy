@@ -21,7 +21,7 @@ class EventService {
                 ilike('name', "%${cmd.q}%")
             }
             if (cmd.filterDateTimestamp) {
-                ZonedDateTime filterDate = ZonedDateTime.ofInstant(Instant.ofEpochSecond(cmd.filterDateTimestamp), ZoneId.of('UTC'))
+                ZonedDateTime filterDate = ZonedDateTime.ofInstant(Instant.ofEpochSecond(cmd.filterDateTimestamp), ZoneId.of('America/Chicago'))
                 or {
                     and {
                         // events that start and stop on the same day

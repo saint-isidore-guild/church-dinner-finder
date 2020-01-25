@@ -94,9 +94,25 @@ class EventServiceSpec extends HibernateSpec implements ServiceUnitTest<EventSer
         res == [event]
     }
 
+    def "search - filterDateTimestamp multi day event with search time of midnight of the first day"() {
+        given:
+        ZonedDateTime startTime = ZonedDateTime.now(ZoneId.of('America/Chicago')).minusDays(3).with(LocalTime.of(9, 0))
+        ZonedDateTime endTime = startTime.plusDays(1)
+        ZonedDateTime searchTime = ZonedDateTime.now(ZoneId.of('America/Chicago')).minusDays(3).with(LocalTime.MIDNIGHT)
+        Event event = new Event(name: "multi day event", startTime: startTime, endTime: endTime, venue: venue).save(failOnError: true, flush: true)
+        EventSearchCommand cmd = new EventSearchCommand(filterDateTimestamp: searchTime.toEpochSecond())
+
+        when:
+        def res = service.search(cmd)
+
+        then:
+        res.size() == 1
+        res == [event]
+    }
+
     def "search - filterDateTimestamp one day event"() {
         given:
-        ZonedDateTime startTime = ZonedDateTime.now(ZoneId.of('UTC')).minusDays(3).with(LocalTime.of(9, 0))
+        ZonedDateTime startTime = ZonedDateTime.now(ZoneId.of('America/Chicago')).minusDays(3).with(LocalTime.of(9, 0))
         ZonedDateTime endTime = startTime.plusHours(4)
         Event event = new Event(name: "several hour event", startTime: startTime, endTime: endTime, venue: venue).save(failOnError: true, flush: true)
         EventSearchCommand cmd = new EventSearchCommand(filterDateTimestamp: startTime.with(LocalTime.of(0, 0)).toEpochSecond())

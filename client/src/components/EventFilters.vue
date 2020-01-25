@@ -62,7 +62,7 @@
         methods: {
             search() {
                 this.dateMenu = false
-                let timestamp = this.filterDate ? moment(this.filterDate).utc().hour(0).unix().valueOf() : ''
+                let timestamp = this.filterDate ? moment(this.filterDate).hour(0).unix().valueOf() : ''
                 this.$emit('input', {filterDateTimestamp: timestamp, categories: this.selectedCategories})
             }
         },
