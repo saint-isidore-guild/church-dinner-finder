@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import EventList from './views/event/List'
 import EventShow from './views/event/Show'
 import EventEdit from "./views/admin/EventEdit";
+import CategoryList from "./components/CategoryList";
+import FishFryList from "./views/event/FishFryList";
 
 Vue.use(Router)
 
@@ -12,13 +14,25 @@ export default new Router({
     routes: [
         {
             path: '/',
-            name: 'EventList',
-            component: EventList
+            name: 'Home',
+            component: FishFryList
+        },
+        {
+            path: '/events',
+            name: 'EventSearch',
+            component: EventList,
+            props: true
         },
         {
             path: '/events/:id',
             name: 'EventShow',
             component: EventShow,
+            props: true
+        },
+        {
+            path: '/category/:category',
+            name: 'CategoryList',
+            component: CategoryList,
             props: true
         },
         {
