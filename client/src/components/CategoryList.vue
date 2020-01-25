@@ -11,13 +11,12 @@
 </template>
 
 <script>
-    import EventCard from "./EventCard";
     import ApiService from "../services/ApiService";
     import EventDetail from "./EventDetail";
 
     export default {
         name: "CategoryList",
-        components: {EventDetail, EventCard},
+        components: {EventDetail},
         props: ["category"],
         data() {
             return {
