@@ -1,9 +1,10 @@
 package com.miketruso.churchdinners
 
 import grails.gorm.DetachedCriteria
+import grails.gorm.PagedResultList
 import grails.gorm.transactions.ReadOnly
 import grails.gorm.transactions.Transactional
-import grails.gorm.PagedResultList
+import grails.web.databinding.DataBindingUtils
 
 import java.time.Instant
 import java.time.LocalTime
@@ -57,6 +58,35 @@ class EventService {
                     }
                 }
             }
+        }
+    }
+
+    Event save(EventCommand cmd, Event event = null) {
+        if (!event) {
+            event = new Event()
+        }
+        DataBindingUtils.bindObjectToInstance(event, cmd, null, ['startTime', 'endTime', 'categories'], null)
+        ZonedDateTime startTime = ZonedDateTime.ofInstant(Instant.ofEpochSecond(cmd.startTime), ZoneId.of('UTC'))
+        ZonedDateTime endTime = ZonedDateTime.ofInstant(Instant.ofEpochSecond(cmd.endTime), ZoneId.of('UTC'))
+        event.startTime = startTime
+        event.endTime = endTime
+        event.hasCost = event.costDescription ? true : false
+        if (!event.save()) {
+            log.warn(event.errors)
+            return null
+        }
+        updateCategories(event, cmd.categories)
+        event
+    }
+
+    void updateCategories(Event event, List<Category> categories) {
+        if (!categories) {
+            EventCategory.executeUpdate('delete from EventCategory ec where ec.event = :event', [event: event])
+        } else {
+            categories.each { category ->
+                EventCategory.findOrCreateWhere(event: event, category: category).save(flush: true)
+            }
+            EventCategory.executeUpdate('delete from EventCategory ec where ec.event = :event and ec.category not in(:categoryList)', [event: event, categoryList: categories])
         }
     }
 }

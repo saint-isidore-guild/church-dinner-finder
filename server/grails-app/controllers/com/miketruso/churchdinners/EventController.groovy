@@ -5,10 +5,6 @@ import grails.gorm.transactions.ReadOnly
 import grails.gorm.transactions.Transactional
 import org.springframework.http.HttpStatus
 
-import java.time.Instant
-import java.time.ZoneId
-import java.time.ZonedDateTime
-
 @ReadOnly
 class EventController {
     static responseFormats = ['json']
@@ -36,20 +32,14 @@ class EventController {
             render status: HttpStatus.BAD_REQUEST
             return
         }
-
-        Event event = new Event()
-        bindData(event, cmd, ['startTime', 'endTime'])
-        ZonedDateTime startTime = ZonedDateTime.ofInstant(Instant.ofEpochSecond(cmd.startTime), ZoneId.of('UTC'))
-        ZonedDateTime endTime = ZonedDateTime.ofInstant(Instant.ofEpochSecond(cmd.endTime), ZoneId.of('UTC'))
-        event.startTime = startTime
-        event.endTime = endTime
-        event.hasCost = event.costDescription ? true : false
-        if (!event.save()) {
+        Event savedEvent = eventService.save(cmd)
+        if (!savedEvent) {
             render status: HttpStatus.BAD_REQUEST
             return
         }
+        log.info("New Event Created id=${savedEvent.id}")
         response.status = HttpStatus.CREATED.value()
-        render ([id: event.id] as JSON)
+        render([id: savedEvent.id] as JSON)
     }
 
     @Transactional
@@ -75,6 +65,7 @@ class EventCommand {
     Long startTime
     Long endTime
     Venue venue
+    List<Category> categories
 
     static constraints = {
         name nullable: false
@@ -86,5 +77,6 @@ class EventCommand {
         startTime nullable: false
         endTime nullable: false
         venue nullable: false
+        categories nullable: true
     }
 }
