@@ -18,6 +18,7 @@
     "vuetify-datetime-picker": "^2.1.1"
   },
   "devDependencies": {
+    "@mdi/font": "^4.8.95",
     "@vue/cli-plugin-babel": "^4.1.2",
     "@vue/cli-plugin-eslint": "^4.1.2",
     "@vue/cli-service": "^4.1.2",

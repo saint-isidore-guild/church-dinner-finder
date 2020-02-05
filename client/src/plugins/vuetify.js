@@ -1,10 +1,11 @@
+import '@mdi/font/css/materialdesignicons.css'
 import Vue from 'vue'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 
 
 const opts = {
-  iconfont: 'md',
+  iconfont: 'mdi',
 };
 
 Vue.use(Vuetify)

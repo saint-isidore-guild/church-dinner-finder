@@ -33,7 +33,12 @@
             },
         },
         mounted() {
-            this.searchEvents()
+            this.searchEvents();
+        },
+        beforeRouteUpdate (to, from, next) {
+            this.category = to.params.category;
+            this.searchEvents();
+            next()
         }
     }
 </script>

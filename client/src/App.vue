@@ -1,11 +1,12 @@
 <template>
     <v-app>
         <v-app-bar app
-                :clipped-left="clipped"
+                   :clipped-left="clipped"
         >
             <router-link to="/" class="title-link">
                 <v-toolbar-title>
-                    Church Meal Finder <v-icon>near_me</v-icon>
+                    Church Meal Finder
+                    <v-icon>near_me</v-icon>
                 </v-toolbar-title>
             </router-link>
             <v-spacer></v-spacer>
@@ -24,12 +25,33 @@
                 fixed
                 app
         >
+            <v-list-item>
+                <v-list-item-content>
+                    <v-list-item-title class="title">
+                        Fish Fry Finder
+                    </v-list-item-title>
+                    <v-list-item-subtitle>
+                        and other community meals
+                    </v-list-item-subtitle>
+                </v-list-item-content>
+            </v-list-item>
+
+            <v-divider></v-divider>
+
             <v-list>
-                <v-list-item @click="right = !right">
-                    <v-list-item-action>
-                        <v-icon>compare_arrows</v-icon>
-                    </v-list-item-action>
-                    <v-list-item-title>Switch drawer (click me)</v-list-item-title>
+                <v-list-item
+                        v-for="item in items"
+                        :key="item.title"
+                        :to="`/category/${item.title}`"
+                        link
+                >
+                    <v-list-item-icon>
+                        <v-icon>{{ item.icon }}</v-icon>
+                    </v-list-item-icon>
+
+                    <v-list-item-content>
+                        <v-list-item-title>{{ item.title }}</v-list-item-title>
+                    </v-list-item-content>
                 </v-list-item>
             </v-list>
         </v-navigation-drawer>
@@ -42,17 +64,21 @@
 <script>
 
     import EventSearch from "./components/EventSearch";
+
     export default {
         name: 'App',
         components: {EventSearch},
         data() {
             return {
                 clipped: false,
-                drawer: true,
                 fixed: false,
-                miniVariant: false,
                 right: true,
-                rightDrawer: false
+                rightDrawer: false,
+                items: [
+                    {icon: 'mdi-coffee', title: 'Breakfast'},
+                    {icon: 'mdi-pasta', title: 'Festival'},
+                    {icon: 'mdi-fish', title: 'Fish Fry'},
+                ]
             }
         }
     }
