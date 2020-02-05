@@ -27,7 +27,7 @@
                                 <dt>Cost Description</dt>
                                 <dd>{{ event.costDescription }}</dd>
                             </dl>
-                            <v-btn :href="event.website" target="_blank">More Information</v-btn>
+                            <v-btn :href="event.website" target="_blank">More Information <v-icon right>mdi-open-in-new</v-icon></v-btn>
                         </div>
                     </v-card-title>
                 </v-card>
