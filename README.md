@@ -1,6 +1,6 @@
 ## Built with
 
-- Grails 3
+- Grails 4
 - VueJs
 - Vuetify
 

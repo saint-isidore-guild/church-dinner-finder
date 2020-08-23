@@ -5,7 +5,7 @@ String envShortName = Environment.envNameMappings.entrySet().find { it.value == 
 
 dataSource {
     dbCreate = 'none'
-    dialect = 'org.hibernate.dialect.PostgreSQL94Dialect'
+    dialect = 'org.hibernate.dialect.PostgreSQLDialect'
     driverClassName = 'org.postgresql.Driver'
     jmxExport = true
     password = ''
@@ -16,6 +16,7 @@ dataSource {
 }
 
 grails.plugin.databasemigration.updateOnStart = true
+grails.plugin.databasemigration.updateOnStartFileName = 'changelog.groovy'
 
 environments {
     development {

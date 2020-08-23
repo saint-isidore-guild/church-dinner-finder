@@ -1,9 +1,10 @@
 package com.miketruso.churchdinners
 
-import grails.plugins.rest.client.RestBuilder
+import grails.gorm.transactions.Rollback
 import grails.testing.mixin.integration.Integration
-import grails.transaction.Rollback
 import spock.lang.Specification
+import wslite.rest.RESTClient
+import wslite.rest.RESTClientException
 
 import java.time.ZonedDateTime
 
@@ -11,28 +12,29 @@ import java.time.ZonedDateTime
 @Rollback
 class EventFunctionalSpec extends Specification {
 
-    protected RestBuilder rest = new RestBuilder()
+    protected RESTClient rest
     protected String baseUrl
 
     void setup() {
         baseUrl = "http://localhost:$serverPort"
+        rest = new RESTClient(baseUrl)
     }
 
     void "event search"() {
         when:
-        def response = rest.get("${baseUrl}/event/search")
+        def response = rest.get(path: "/event/search")
 
         then:
-        response.status == 200
+        response.statusCode == 200
         response.json.events.size() == 3
     }
 
     void "event name search"() {
         when:
-        def response = rest.get("${baseUrl}/event/search?q=pancake")
+        def response = rest.get(path: "/event/search", query: [q: 'pancake'])
 
         then:
-        response.status == 200
+        response.statusCode == 200
         response.json.events.size() == 1
         response.json.total == 1
     }
@@ -42,18 +44,19 @@ class EventFunctionalSpec extends Specification {
         Long timestamp = ZonedDateTime.now().toEpochSecond()
 
         when:
-        def response = rest.get("${baseUrl}/event/search?filterDateTimestamp=${timestamp}")
+        def response = rest.get(path: "/event/search?", query: [filterDateTimestamp: timestamp])
 
         then:
-        response.status == 200
+        response.statusCode == 200
     }
 
     void "event bad route"() {
         when:
-        def response = rest.get("${baseUrl}/event/foo")
+        def response = rest.get(path: "/event/foo")
 
         then:
-        response.status == 400
+        thrown(RESTClientException)
+//        response.statusCode == 400
     }
 
     void "category search"() {
@@ -61,37 +64,37 @@ class EventFunctionalSpec extends Specification {
         String categoryName = 'Breakfast'
 
         when:
-        def response = rest.get("${baseUrl}/event/search?categories=${categoryName}")
+        def response = rest.get(path: "/event/search", query: [categories: categoryName])
 
         then:
-        response.status == 200
+        response.statusCode == 200
         response.json.events.size() == 1
     }
 
     void "category multiple"() {
         when:
-        def response = rest.get("${baseUrl}/event/search?categories=Breakfast&categories=Festival")
+        def response = rest.get(path: "/event/search?categories=Breakfast&categories=Festival", query: [categories: ['Breakfast', 'Festival']])
 
         then:
-        response.status == 200
+        response.statusCode == 200
         response.json.events.size() == 2
     }
 
     void "search upcoming"() {
         when:
-        def response = rest.get("${baseUrl}/event/search?upcoming=true")
+        def response = rest.get(path: "/event/search", query: [upcoming: true])
 
         then:
-        response.status == 200
+        response.statusCode == 200
         response.json.events.size() == 2
     }
 
     void "root event endpoint returns upcoming"() {
         when:
-        def response = rest.get("${baseUrl}/event")
+        def response = rest.get(path: "/event")
 
         then:
-        response.status == 200
+        response.statusCode == 200
         response.json.events.size() == 2
     }
 }
