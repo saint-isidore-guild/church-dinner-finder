@@ -24,13 +24,18 @@
 </template>
 
 <script>
+
 export default {
   name: 'IndexPage',
   async asyncData ({ $content }) {
     const events = await $content('events/2022')
-      .sortBy('startDate', 'asc')
+      // .sortBy('startDate', 'asc')
       // .where({categories: {$in: ['fish']} })
       .fetch()
+    events.forEach((event) => {
+      console.log(event)
+      // event.parish = parishes.find((p) => p.id === event.parishId)
+    })
 
     return {
       events

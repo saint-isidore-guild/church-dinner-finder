@@ -1,20 +1,26 @@
 [
   {
     "title": "St. Marks Fish Fry",
+    "slug": "st-marks-fish-fry",
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-30_T15:30:00:000-5:00",
-    "endDate": "2022-03-30_T18:30:00:000-5:00"
+    "endDate": "2022-03-30_T18:30:00:000-5:00",
+    "parishId": 145
   },
   {
     "title": "Lourdes Fish Fry",
+    "slug": "lourdes-fish-fry",
     "categories": ["fish", "dinner"],
     "startDate": "2022-04-10_T15:30:00:000-5:00",
-    "endDate": "2022-04-10_T18:30:00:000-5:00"
+    "endDate": "2022-04-10_T18:30:00:000-5:00",
+    "parishId": 47
   },
   {
     "title": "St. Marks Fall Festival",
+    "slug": "st-marks-fall-festival",
     "categories": ["festival"],
     "startDate": "2022-10-01_T11:30:00:000-5:00",
-    "endDate": "2022-10-01_T16:30:00:000-5:00"
+    "endDate": "2022-10-01_T16:30:00:000-5:00",
+    "parishId": 145
   }
 ]
