@@ -10,9 +10,11 @@
           Welcome to the Vuetify + Nuxt.js template
         </v-card-title>
         <v-card-text>
-          <div v-for="event in events" :key="event.slug">
-            <h3>{{event.title}}</h3>
-          </div>
+          <EventCard
+            v-for="event in events"
+            :key="event.slug"
+            :event="event"
+          />
         </v-card-text>
         <v-card-actions>
           <v-spacer />
@@ -24,17 +26,17 @@
 </template>
 
 <script>
-
+import parishes from '@/util/parishes'
 export default {
   name: 'IndexPage',
   async asyncData ({ $content }) {
     const events = await $content('events/2022')
-      // .sortBy('startDate', 'asc')
-      // .where({categories: {$in: ['fish']} })
+      .sortBy('startDate', 'asc')
+      .where({categories: { $contains: "fish"} })
       .fetch()
     events.forEach((event) => {
+      event.parish = parishes.find((p) => p.id === event.parishId)
       console.log(event)
-      // event.parish = parishes.find((p) => p.id === event.parishId)
     })
 
     return {
