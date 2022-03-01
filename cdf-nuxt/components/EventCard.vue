@@ -6,7 +6,7 @@
                 <div>{{prettyDate(event.startDate)}}</div>
             </div>
         </v-card-title>
-        <v-card-text>
+        <v-card-text class="subtitle-1">
           {{ event.description}}
         </v-card-text>
         <v-card-actions>
@@ -22,7 +22,7 @@
 <script>
     export default {
         name: "EventCard",
-        props: ['event'],
+        props: { event: { type: Object, defaultValue: {} }  },
       methods: {
           prettyDate(date) {
             return new Date(date).toLocaleString()
