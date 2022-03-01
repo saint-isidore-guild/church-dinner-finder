@@ -5,15 +5,9 @@
         <EventMap :events="events" />
       </v-card>
       <v-card>
-        <v-card-title class="headline">
-          Upcoming
-        </v-card-title>
+        <v-card-title class="headline"> Upcoming </v-card-title>
         <v-card-text>
-          <EventCard
-            v-for="event in events"
-            :key="event.slug"
-            :event="event"
-          />
+          <EventCard v-for="event in events" :key="event.slug" :event="event" />
         </v-card-text>
       </v-card>
     </v-col>
@@ -24,17 +18,17 @@
 import parishes from '@/util/parishes'
 export default {
   name: 'IndexPage',
-  async asyncData ({ $content }) {
+  async asyncData({ $content }) {
     const events = await $content('events/2022')
       .sortBy('startDate', 'asc')
-      .where({categories: { $contains: "fish"} }) // , endDate: { $gt: new Date() }
+      .where({ categories: { $contains: 'fish' } }) // , endDate: { $gt: new Date() }
       .fetch()
     events.forEach((event) => {
       event.parish = parishes.find((p) => p.id === event.parishId)
     })
     return {
-      events
+      events,
     }
-  }
+  },
 }
 </script>

@@ -1,10 +1,6 @@
 <template>
   <v-form ref="createForm">
-    <v-text-field
-      v-model="event.title"
-      label="title"
-      outlined
-    ></v-text-field>
+    <v-text-field v-model="event.title" label="title" outlined></v-text-field>
     <v-textarea
       v-model="event.description"
       label="description"
@@ -31,7 +27,10 @@
         <v-date-picker v-model="event.startDate"></v-date-picker>
       </v-col>
       <v-col>
-        <v-time-picker v-model="event.startTime" label="starTime"></v-time-picker>
+        <v-time-picker
+          v-model="event.startTime"
+          label="starTime"
+        ></v-time-picker>
       </v-col>
       <v-col>
         <v-time-picker v-model="event.endTime" label="endDate"></v-time-picker>
@@ -47,7 +46,7 @@
 import parishes from '@/util/parishes'
 
 export default {
-  name: "CreateEvent",
+  name: 'CreateEvent',
   data() {
     return {
       event: {
@@ -57,8 +56,8 @@ export default {
         startTime: null,
         endTime: null,
         categories: ['fish'],
-        parishId: null
-      }
+        parishId: null,
+      },
     }
   },
   computed: {
@@ -67,20 +66,25 @@ export default {
       return {
         title: this.event.title,
         description: this.event.description,
-        slug: this.event.title?.replaceAll(' ', '-')?.replaceAll('.', '')?.toLowerCase(),
+        slug: this.event.title
+          ?.replaceAll(' ', '-')
+          ?.replaceAll('.', '')
+          ?.toLowerCase(),
         parishId: this.event.parishId,
         categories: this.event.categories,
-        startDate: `${this.event.startDate}T${this.event.startTime}:00-0${new Date(this.event.startDate) >= springAhead ? 5 : 6}:00`,
-        endDate: `${this.event.startDate}T${this.event.endTime}:00-0${new Date(this.event.startDate) >= springAhead ? 5 : 6}:00`
+        startDate: `${this.event.startDate}T${this.event.startTime}:00-0${
+          new Date(this.event.startDate) >= springAhead ? 5 : 6
+        }:00`,
+        endDate: `${this.event.startDate}T${this.event.endTime}:00-0${
+          new Date(this.event.startDate) >= springAhead ? 5 : 6
+        }:00`,
       }
     },
     parishList() {
       return parishes
-    }
-  }
+    },
+  },
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

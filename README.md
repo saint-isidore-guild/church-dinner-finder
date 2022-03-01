@@ -11,6 +11,7 @@ Displays a list of local fish fry dinners and plots the locations on a map.
 ## Build Setup
 
 Get a [Google Maps API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) and add it to the `.env` file
+
 ```
 GOOGLE_MAPS_API_KEY="YOUR API KEY"
 ```

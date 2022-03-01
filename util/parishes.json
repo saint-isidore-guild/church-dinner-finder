@@ -319,10 +319,7 @@
     "city": "Goodhue",
     "state": "MN",
     "zip": "55027-9104",
-    "website": [
-      "http://www.holytrinitygoodhue.org",
-      ""
-    ],
+    "website": ["http://www.holytrinitygoodhue.org", ""],
     "phone": "(651) 923-4472",
     "id": 27
   },

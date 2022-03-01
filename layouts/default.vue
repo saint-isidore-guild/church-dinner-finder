@@ -9,7 +9,12 @@
       </v-container>
     </v-main>
     <v-footer :absolute="true" app>
-      <span>&copy; {{ new Date().getFullYear() }} <a href="https://saint-isidore-guild.github.io/">St. Isidore's Guild</a></span>
+      <span
+        >&copy; {{ new Date().getFullYear() }}
+        <a href="https://saint-isidore-guild.github.io/"
+          >St. Isidore's Guild</a
+        ></span
+      >
     </v-footer>
   </v-app>
 </template>
