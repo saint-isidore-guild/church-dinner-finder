@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
+    "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/vuetify": "^1.12.3",
@@ -38,5 +39,8 @@
     "jest": "^27.4.4",
     "prettier": "^2.5.1",
     "vue-jest": "^3.0.4"
+  },
+  "engines": {
+    "node": ">=16.13.1"
   }
 }
