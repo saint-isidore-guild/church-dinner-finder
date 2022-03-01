@@ -1,9 +1,0 @@
-import com.miketruso.churchdinners.Category
-
-model {
-    Category category
-}
-
-json {
-    name category.name
-}
