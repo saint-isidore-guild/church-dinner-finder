@@ -6,32 +6,106 @@
       "fish",
       "dinner"
     ],
-    "startDate": "2022-03-11T18:00:00-05:00",
-    "endDate":   "2022-03-11T20:00:00-05:00",
+    "startDate": "2022-03-11T18:00:00-06:00",
+    "endDate":   "2022-03-11T20:00:00-06:00",
     "parishId": 145,
     "description": ""
   },
   {
     "title": "St. Timothy Fish Dinner",
+    "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
     "slug": "st-timothy-fish-dinner",
+    "parishId": 201,
     "categories": [
       "fish",
       "dinner"
     ],
-    "startDate": "1997-07-16T19:20:30+01:00",
-    "endDate": "2022-04-10_T18:30:00-5:00",
-    "parishId": 201,
-    "description": "Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141"
+    "startDate": "2022-03-04T16:45:00-06:00",
+    "endDate": "2022-03-04T18:00:00-06:00"
   },
   {
-    "title": "St. Marks Fall Festival",
-    "slug": "st-marks-fall-festival",
+    "title": "St. Timothy Fish Dinner",
+    "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
+    "slug": "st-timothy-fish-dinner",
+    "parishId": 201,
     "categories": [
-      "festival"
+      "fish",
+      "dinner"
     ],
-    "startDate": "1997-07-16T19:20:30+01:00",
-    "endDate": "2022-10-01_T16:30:00-5:00",
-    "parishId": 145,
-    "description": ""
+    "startDate": "2022-03-11T16:45:00-06:00",
+    "endDate": "2022-03-11T18:00:00-06:00"
+  },
+
+  {
+    "title": "St. Timothy Fish Dinner",
+    "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
+    "slug": "st-timothy-fish-dinner",
+    "parishId": 201,
+    "categories": [
+      "fish",
+      "dinner"
+    ],
+    "startDate": "2022-03-18T16:45:00-05:00",
+    "endDate": "2022-03-18T18:00:00-05:00"
+  },
+  {
+    "title": "St. Timothy Fish Dinner",
+    "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
+    "slug": "st-timothy-fish-dinner",
+    "parishId": 201,
+    "categories": [
+      "fish",
+      "dinner"
+    ],
+    "startDate": "2022-03-25T16:45:00-05:00",
+    "endDate": "2022-03-25T18:00:00-05:00"
+  },
+  {
+    "title": "St. Timothy Fish Dinner",
+    "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
+    "slug": "st-timothy-fish-dinner",
+    "parishId": 201,
+    "categories": [
+      "fish",
+      "dinner"
+    ],
+    "startDate": "2022-04-01T16:45:00-05:00",
+    "endDate": "2022-04-01T18:00:00-05:00"
+  },
+  {
+    "title": "St. Timothy Fish Dinner",
+    "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
+    "slug": "st-timothy-fish-dinner",
+    "parishId": 201,
+    "categories": [
+      "fish",
+      "dinner"
+    ],
+    "startDate": "2022-04-08T16:45:00-05:00",
+    "endDate": "2022-04-08T18:00:00-05:00"
+  },
+  {
+    "title": "Our Lady of the Prairie Baked Fish Dinner",
+    "description": "Baked fish dinner, 4:30–6:30 p.m. March 18 and 25, April 1 and 8 at 200 Church St. E. Freewill offering. Includes breaded and unbreaded baked fish, salad, au gratin potatoes, a roll and dessert. Hosted by Knights of Columbus Council 1503",
+    "slug": "our-lady-of-the-prairie-baked-fish-dinner",
+    "parishId": 51,
+    "categories": [
+      "fish",
+      "dinner"
+    ],
+    "startDate": "2022-03-18T16:30:00-05:00",
+    "endDate": "2022-03-18T18:30:00-05:00"
+  },
+  {
+    "title": "Nativity of Mary Fish Fry Festival",
+    "description": "Fish fry festival, 4:30–8 p.m. March 18 at 9900 Lyndale Ave. S. Dine-in or drive-thru. $12 in advance or $13 at door. Includes cod fillets or grilled cheese, French fries, baked beans, coleslaw, bun and an assortment of desserts. Beer, wine and cocktails extra (indoor dining only). Also includes meat raffle and bingo with entertainer Dan Boulay. Purchase tickets in the parish office or after Masses starting in March.",
+    "slug": "nativity-of-mary-fish-fry-festival",
+    "parishId": 44,
+    "categories": [
+      "fish",
+      "dinner"
+    ],
+    "startDate": "2022-03-18T16:30:00-05:00",
+    "endDate": "2022-03-18T20:00:00-05:00"
   }
 ]

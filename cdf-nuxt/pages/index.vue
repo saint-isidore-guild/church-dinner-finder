@@ -27,12 +27,11 @@ export default {
   async asyncData ({ $content }) {
     const events = await $content('events/2022')
       .sortBy('startDate', 'asc')
-      .where({categories: { $contains: "fish"} })
+      .where({categories: { $contains: "fish"} }) // , endDate: { $gt: new Date() }
       .fetch()
     events.forEach((event) => {
       event.parish = parishes.find((p) => p.id === event.parishId)
     })
-
     return {
       events
     }
