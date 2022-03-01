@@ -107,5 +107,65 @@
     ],
     "startDate": "2022-03-18T16:30:00-05:00",
     "endDate": "2022-03-18T20:00:00-05:00"
+  },
+  {
+    "title": "St. Edward Fish Dinner",
+    "description": "Fish dinner, 5–7 p.m. March 11 at 9401 Nesbitt Ave. S. Dine-in or drive-thru. $15, free ages 7 and under, $50 family four-pack. Includes beer-battered cod or macaroni and cheese, French fries, coleslaw, dessert, condiments and a beverage. Proceeds support youth ministries. Preorder online at http://www.stedwardschurch.org/signup",
+    "slug": "st-edward-fish-dinner",
+    "parishId": 94,
+    "categories": [
+      "fish"
+    ],
+    "startDate": "2022-03-11T17:00:00-06:00",
+    "endDate": "2022-03-11T19:00:00-06:00"
+  },
+  {
+    "title": "St. Francis Xavier Fish Fry",
+    "description": "Fish fry, 4–8 p.m. March 18 at Bison Creek Bar and Dining, 1207 N. Highway 25. $13, $8 ages 10 and under. Hosted by the Knights of Columbus. Stations of the Cross 7 p.m. at the church, 300 First Ave. NW. March 25: 7 p.m. Living Stations of the Cross at St. Francis Xavier Catholic School, 219 19th St. NW. Pizza dinner prior to Stations 5:30–6:30 p.m. Hosted by High School Leadership Team. All proceeds to STFX youth ministries.",
+    "slug": "st-francis-xavier-fish-fry",
+    "parishId": 100,
+    "categories": [
+      "fish",
+      "dinner"
+    ],
+    "startDate": "2022-03-18T16:00:00-05:00",
+    "endDate": "2022-03-18T20:00:00-05:00"
+  },
+  {
+    "title": "St. Pius V Fish fry",
+    "description": "Fish fry, 4:45–6:45 p.m. March 4 and April 1. Preorder only with curbside pickup at 410 Colvill St. W. $12. Includes fried or baked Alaskan pollock, rice, baked beans (all gluten-free), coleslaw, bakery bun and cookies. Stations of the Cross at 5 and 7 p.m. every Friday during Lent. Preorder at 507-263-2578 or http://www.stpiusvcf.org",
+    "slug": "st-pius-v-fish-fry",
+    "parishId": 184,
+    "categories": [
+      "fish",
+      "dinner"
+    ],
+    "startDate": "2022-03-04T16:45:00-06:00",
+    "endDate": "2022-03-04T18:45:00-06:00"
+  },
+  {
+    "title": "St. Pius V Fish fry",
+    "description": "Fish fry, 4:45–6:45 p.m. March 4 and April 1. Preorder only with curbside pickup at 410 Colvill St. W. $12. Includes fried or baked Alaskan pollock, rice, baked beans (all gluten-free), coleslaw, bakery bun and cookies. Stations of the Cross at 5 and 7 p.m. every Friday during Lent. Preorder at 507-263-2578 or http://www.stpiusvcf.org",
+    "slug": "st-pius-v-fish-fry",
+    "parishId": 184,
+    "categories": [
+      "fish",
+      "dinner"
+    ],
+    "startDate": "2022-04-01T16:45:00-05:00",
+    "endDate": "2022-04-01T18:45:00-05:00"
+  },
+
+  {
+    "title": "St. Patrick of Cedar Lake, Jordan Fish Fry",
+    "description": "Fish fry, 5–8 p.m. Feb. 25 and April 8 at 24425 Old Hwy. 13 Blvd., Jordan. $14 adults, $6 children 4-12, free ages 3 and under. Dine-in or takeout available. Includes all-you-can-eat baked and fried cod, French fries, au gratin potatoes, coleslaw, baked beans, macaroni and cheese, rye bread and rolls, bars and beverage. ",
+    "slug": "st-patrick-of-cedar-lake,-jordan-fish-fry",
+    "parishId": 172,
+    "categories": [
+      "fish",
+      "dinner"
+    ],
+    "startDate": "2022-04-08T17:00:00-05:00",
+    "endDate": "2022-04-08T20:00:00-05:00"
   }
 ]

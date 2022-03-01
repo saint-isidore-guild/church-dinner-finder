@@ -3,7 +3,7 @@
         <v-card-title primary-title>
             <div>
                 <h3 class="headline mb-0">{{event.title}}</h3>
-                <div>{{prettyDate(event.startDate)}}</div>
+                <div>{{prettyDate(event.startDate)}} - {{ prettyDate(event.endDate) }}</div>
             </div>
         </v-card-title>
         <v-card-text class="subtitle-1">
