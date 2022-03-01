@@ -3,11 +3,10 @@ name: ci
 on:
   push:
     branches:
-      - main
       - master
+      - frontend_only
   pull_request:
     branches:
-      - main
       - master
 
 jobs:
