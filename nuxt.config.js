@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - cdf-nuxt',
-    title: 'cdf-nuxt',
+    titleTemplate: '%s - Lenten Meals',
+    title: 'Lenten Meals',
     htmlAttrs: {
       lang: 'en',
     },

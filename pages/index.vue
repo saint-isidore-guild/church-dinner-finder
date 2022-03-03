@@ -30,5 +30,10 @@ export default {
       events,
     }
   },
+  head() {
+    return {
+      title: "2022"
+    };
+  },
 }
 </script>
