@@ -32,8 +32,8 @@ export default {
   },
   head() {
     return {
-      title: "2022"
-    };
+      title: '2022',
+    }
   },
 }
 </script>
