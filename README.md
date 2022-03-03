@@ -1,5 +1,7 @@
 # Church Meal Finder
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/debed65f-3066-46f9-9404-2d07ebf0c28c/deploy-status)](https://app.netlify.com/sites/fishfry/deploys)
+
 Displays a list of local fish fry dinners and plots the locations on a map.
 
 ## Built with
