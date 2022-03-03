@@ -3,9 +3,7 @@
     <v-card-title primary-title>
       <div>
         <h3 class="headline mb-0">{{ event.title }}</h3>
-        <div>
-          {{ prettyDate(event.startDate) }} - {{ prettyDate(event.endDate) }}
-        </div>
+        <div>{{ startDate }} - {{ endDate }}</div>
       </div>
     </v-card-title>
     <v-card-text class="subtitle-1">
@@ -18,9 +16,25 @@
 </template>
 
 <script>
+import moment from 'moment'
+
 export default {
   name: 'EventCard',
   props: { event: { type: Object, defaultValue: {} } },
+  computed: {
+    startDate() {
+      return moment(this.event.startDate).format('MMMM d, h:mm a')
+    },
+    endDate() {
+      const start = moment(this.event.startDate)
+      const end = moment(this.event.endDate)
+      if (start.format('L') === end.format('L')) {
+        //  same day
+        return end.format('h:mm a')
+      }
+      return moment(this.event.endDate).format('MMMM d, h:mm a')
+    },
+  },
   methods: {
     prettyDate(date) {
       return new Date(date).toLocaleString()
