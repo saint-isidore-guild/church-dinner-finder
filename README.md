@@ -1,31 +1,37 @@
+# Church Meal Finder
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/debed65f-3066-46f9-9404-2d07ebf0c28c/deploy-status)](https://app.netlify.com/sites/fishfry/deploys)
+![Build Status](https://github.com/saint-isidore-guild/church-dinner-finder/actions/workflows/ci.yml/badge.svg)
+
+Displays a list of local fish fry dinners and plots the locations on a map.
+
 ## Built with
 
-- Grails 4
 - VueJs
+- Nuxt
 - Vuetify
 
-## Setup
-Install Java via [sdkman](https://sdkman.io/)
+## Build Setup
+
+Get a [Google Maps API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) and add it to the `.env` file
+
 ```
-sdk install java 8u151-oracle
-```
-Install PostgreSQL via [Homebrew](https://brew.sh/)
-```
-brew install postgresql
+GOOGLE_MAPS_API_KEY="YOUR API KEY"
 ```
 
-Create the dev and test databases
-```
-psql -f server/sql/setup.sql
+```bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
 ```
 
-## Usage
-Server
-```
-./gradlew server:bootRun
-```
-
-Client
-```
-./gradlew client:bootRun 
-```
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
