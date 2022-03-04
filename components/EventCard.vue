@@ -30,7 +30,7 @@ export default {
   },
   computed: {
     startDate() {
-      return moment(this.event.startDate).format('MMMM d, h:mm a')
+      return moment(this.event.startDate).format('MMMM D, h:mm a')
     },
     endDate() {
       const start = moment(this.event.startDate)
@@ -39,7 +39,7 @@ export default {
         //  same day
         return end.format('h:mm a')
       }
-      return moment(this.event.endDate).format('MMMM d, h:mm a')
+      return moment(this.event.endDate).format('MMMM D, h:mm a')
     },
   },
   methods: {

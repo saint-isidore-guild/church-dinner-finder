@@ -3,15 +3,15 @@
     "title": "St. Marks Fish Fry",
     "slug": "st-marks-fish-fry",
     "categories": ["fish", "dinner"],
-    "startDate": "2022-03-11T18:00:00-06:00",
-    "endDate": "2022-03-11T20:00:00-06:00",
+    "startDate": "2022-03-11T16:30:00-06:00",
+    "endDate": "2022-03-11T19:00:00-06:00",
     "parishId": 145,
-    "description": ""
+    "description": "Fish fry runs from 4:30 to 7pm in the school cafeteria. Dine-in: $12 adult, $9 child, small family (4 meals) $40, and large family (6 meals) $50. Meals include fried fish, coleslaw, mac and cheese, chips, a cookie, and a drink. Fries are available for extra charge. Soup suppers all other Fridays in Lent except Good Friday in Carolyn Hall. https://onestrongfamily.org/lent"
   },
   {
     "title": "St. Timothy Fish Dinner",
     "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
-    "slug": "st-timothy-fish-dinner",
+    "slug": "st-timothy-fish-dinner1",
     "parishId": 201,
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-04T16:45:00-06:00",
@@ -20,7 +20,7 @@
   {
     "title": "St. Timothy Fish Dinner",
     "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
-    "slug": "st-timothy-fish-dinner",
+    "slug": "st-timothy-fish-dinner2",
     "parishId": 201,
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-11T16:45:00-06:00",
@@ -30,7 +30,7 @@
   {
     "title": "St. Timothy Fish Dinner",
     "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
-    "slug": "st-timothy-fish-dinner",
+    "slug": "st-timothy-fish-dinner3",
     "parishId": 201,
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-18T16:45:00-05:00",
@@ -39,7 +39,7 @@
   {
     "title": "St. Timothy Fish Dinner",
     "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
-    "slug": "st-timothy-fish-dinner",
+    "slug": "st-timothy-fish-dinner4",
     "parishId": 201,
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-25T16:45:00-05:00",
@@ -48,7 +48,7 @@
   {
     "title": "St. Timothy Fish Dinner",
     "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
-    "slug": "st-timothy-fish-dinner",
+    "slug": "st-timothy-fish-dinner5",
     "parishId": 201,
     "categories": ["fish", "dinner"],
     "startDate": "2022-04-01T16:45:00-05:00",
@@ -57,7 +57,7 @@
   {
     "title": "St. Timothy Fish Dinner",
     "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
-    "slug": "st-timothy-fish-dinner",
+    "slug": "st-timothy-fish-dinner6",
     "parishId": 201,
     "categories": ["fish", "dinner"],
     "startDate": "2022-04-08T16:45:00-05:00",
@@ -102,7 +102,7 @@
   {
     "title": "St. Pius V Fish fry",
     "description": "Fish fry, 4:45–6:45 p.m. March 4 and April 1. Preorder only with curbside pickup at 410 Colvill St. W. $12. Includes fried or baked Alaskan pollock, rice, baked beans (all gluten-free), coleslaw, bakery bun and cookies. Stations of the Cross at 5 and 7 p.m. every Friday during Lent. Preorder at 507-263-2578 or http://www.stpiusvcf.org",
-    "slug": "st-pius-v-fish-fry",
+    "slug": "st-pius-v-fish-fry1",
     "parishId": 184,
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-04T16:45:00-06:00",
@@ -111,7 +111,7 @@
   {
     "title": "St. Pius V Fish fry",
     "description": "Fish fry, 4:45–6:45 p.m. March 4 and April 1. Preorder only with curbside pickup at 410 Colvill St. W. $12. Includes fried or baked Alaskan pollock, rice, baked beans (all gluten-free), coleslaw, bakery bun and cookies. Stations of the Cross at 5 and 7 p.m. every Friday during Lent. Preorder at 507-263-2578 or http://www.stpiusvcf.org",
-    "slug": "st-pius-v-fish-fry",
+    "slug": "st-pius-v-fish-fry2",
     "parishId": 184,
     "categories": ["fish", "dinner"],
     "startDate": "2022-04-01T16:45:00-05:00",
