@@ -20,7 +20,14 @@ import moment from 'moment'
 
 export default {
   name: 'EventCard',
-  props: { event: { type: Object, defaultValue: {} } },
+  props: {
+    event: {
+      type: Object,
+      default() {
+        return {}
+      },
+    },
+  },
   computed: {
     startDate() {
       return moment(this.event.startDate).format('MMMM d, h:mm a')
