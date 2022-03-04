@@ -1,6 +1,7 @@
 # Church Meal Finder
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/debed65f-3066-46f9-9404-2d07ebf0c28c/deploy-status)](https://app.netlify.com/sites/fishfry/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/debed65f-3066-46f9-9404-2d07ebf0c28c/deploy-status)](https://app.netlify.com/sites/fishfry/deploys) 
+![Build Status](https://github.com/saint-isidore-guild/church-dinner-finder/actions/workflows/ci.yml/badge.svg)
 
 Displays a list of local fish fry dinners and plots the locations on a map.
 
