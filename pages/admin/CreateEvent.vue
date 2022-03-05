@@ -16,7 +16,7 @@
     <v-autocomplete
       v-model="event.parishId"
       :items="parishList"
-      item-text="name"
+      :item-text="(item) => `${item.name} (${item.city})`"
       item-value="id"
       label="Parish"
       outlined
