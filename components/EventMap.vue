@@ -43,7 +43,7 @@ export default {
   mounted() {
     this.map = new window.google.maps.Map(this.$refs.mapContainer, {
       center: { lat: 44.9474193, lng: -93.1930733 },
-      zoom: 7,
+      zoom: 9,
     })
 
     Object.entries(this.eventsByParish).forEach(([parishId, parishEvents]) => {
