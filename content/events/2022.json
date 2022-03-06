@@ -130,12 +130,9 @@
   {
     "title": "St. Genevieve Fish dinner",
     "description": "St. Genevieve — Fish dinner, 5–8 p.m. Fridays in Lent except Good Friday. At St. John’s site, 14383 Forest Blvd. Rd. N., Hugo. $13 adults, $11 seniors (60+), $9 ages 6-12, free ages 5 and under. Includes fried Icelandic cod, baby red potatoes, French fries, macaroni and cheese, coleslaw, pickle, rolls, cookie and beverage. Free bike raffle (boy and girl). A 50/50 raffle with 50% of proceeds going to local food shelves.",
-    "slug": "st-genevieve-fish-dinner",
+    "slug": "st-genevieve-fish-dinner0",
     "parishId": 102,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-11T17:00:00-06:00",
     "endDate": "2022-03-11T20:00:00-06:00"
   },
@@ -144,82 +141,61 @@
     "description": "St. Genevieve — Fish dinner, 5–8 p.m. Fridays in Lent except Good Friday. At St. John’s site, 14383 Forest Blvd. Rd. N., Hugo. $13 adults, $11 seniors (60+), $9 ages 6-12, free ages 5 and under. Includes fried Icelandic cod, baby red potatoes, French fries, macaroni and cheese, coleslaw, pickle, rolls, cookie and beverage. Free bike raffle (boy and girl). A 50/50 raffle with 50% of proceeds going to local food shelves.",
     "slug": "st-genevieve-fish-dinner1",
     "parishId": 102,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-18T17:00:00-05:00",
     "endDate": "2022-03-18T20:00:00-05:00"
   },
   {
     "title": "St. Genevieve Fish dinner",
     "description": "St. Genevieve — Fish dinner, 5–8 p.m. Fridays in Lent except Good Friday. At St. John’s site, 14383 Forest Blvd. Rd. N., Hugo. $13 adults, $11 seniors (60+), $9 ages 6-12, free ages 5 and under. Includes fried Icelandic cod, baby red potatoes, French fries, macaroni and cheese, coleslaw, pickle, rolls, cookie and beverage. Free bike raffle (boy and girl). A 50/50 raffle with 50% of proceeds going to local food shelves.",
-    "slug": "st-genevieve-fish-dinner",
+    "slug": "st-genevieve-fish-dinner2",
     "parishId": 102,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-25T17:00:00-05:00",
     "endDate": "2022-03-25T20:00:00-05:00"
   },
   {
     "title": "St. Genevieve Fish dinner",
     "description": "St. Genevieve — Fish dinner, 5–8 p.m. Fridays in Lent except Good Friday. At St. John’s site, 14383 Forest Blvd. Rd. N., Hugo. $13 adults, $11 seniors (60+), $9 ages 6-12, free ages 5 and under. Includes fried Icelandic cod, baby red potatoes, French fries, macaroni and cheese, coleslaw, pickle, rolls, cookie and beverage. Free bike raffle (boy and girl). A 50/50 raffle with 50% of proceeds going to local food shelves.",
-    "slug": "st-genevieve-fish-dinner",
+    "slug": "st-genevieve-fish-dinner3",
     "parishId": 102,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-01T17:00:00-05:00",
     "endDate": "2022-04-01T20:00:00-05:00"
   },
   {
     "title": "St. Genevieve Fish dinner",
     "description": "St. Genevieve — Fish dinner, 5–8 p.m. Fridays in Lent except Good Friday. At St. John’s site, 14383 Forest Blvd. Rd. N., Hugo. $13 adults, $11 seniors (60+), $9 ages 6-12, free ages 5 and under. Includes fried Icelandic cod, baby red potatoes, French fries, macaroni and cheese, coleslaw, pickle, rolls, cookie and beverage. Free bike raffle (boy and girl). A 50/50 raffle with 50% of proceeds going to local food shelves.",
-    "slug": "st-genevieve-fish-dinner",
+    "slug": "st-genevieve-fish-dinner4",
     "parishId": 102,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-08T17:00:00-05:00",
     "endDate": "2022-04-08T20:00:00-05:00"
   },
   {
     "title": "Guardian Angels Fish Fry",
     "description": "Guardian Angels — Fish fry, 4–7:30 p.m. March 11 and 25, and April 8 at Guardian Angels gym, First St. and Cedar St. Dine-in or curbside pick-up available. $14 adults, $6 ages 5-12, free ages 4 and under. Includes Pollock fish (breaded and beer batter), mashed potatoes, potato salad, coleslaw, dinner roll and beverage (coffee, milk and water). Sponsored by Chaska/Carver Knights of Columbus. http://www.gachaska.org",
-    "slug": "guardian-angels-fish-fry",
+    "slug": "guardian-angels-fish-fry1",
     "parishId": 19,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-11T16:00:00-06:00",
     "endDate": "2022-03-11T19:30:00-06:00"
   },
   {
     "title": "Guardian Angels Fish Fry",
     "description": "Guardian Angels — Fish fry, 4–7:30 p.m. March 11 and 25, and April 8 at Guardian Angels gym, First St. and Cedar St. Dine-in or curbside pick-up available. $14 adults, $6 ages 5-12, free ages 4 and under. Includes Pollock fish (breaded and beer batter), mashed potatoes, potato salad, coleslaw, dinner roll and beverage (coffee, milk and water). Sponsored by Chaska/Carver Knights of Columbus. http://www.gachaska.org",
-    "slug": "guardian-angels-fish-fry",
+    "slug": "guardian-angels-fish-fry2",
     "parishId": 19,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-25T16:00:00-05:00",
     "endDate": "2022-03-25T19:30:00-05:00"
   },
   {
     "title": "Guardian Angels Fish Fry",
     "description": "Guardian Angels — Fish fry, 4–7:30 p.m. March 11 and 25, and April 8 at Guardian Angels gym, First St. and Cedar St. Dine-in or curbside pick-up available. $14 adults, $6 ages 5-12, free ages 4 and under. Includes Pollock fish (breaded and beer batter), mashed potatoes, potato salad, coleslaw, dinner roll and beverage (coffee, milk and water). Sponsored by Chaska/Carver Knights of Columbus. http://www.gachaska.org",
-    "slug": "guardian-angels-fish-fry",
+    "slug": "guardian-angels-fish-fry3",
     "parishId": 19,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-08T16:00:00-05:00",
     "endDate": "2022-04-08T19:30:00-05:00"
   },
@@ -228,10 +204,7 @@
     "description": "St. Luke — Fish dinner, 4:30–7:30 p.m. March 11 at 17545 Huber Ave. NW. Drive-thru only. $12 adults, $6 ages 12 and under. Includes fried fish, cheesy hashbrowns, vegetable, dinner roll, cookie and a bottle of water. Hosted by Clearwater Knights of Columbus. http://www.churchofstlukes.com",
     "slug": "st-luke-fish-dinner",
     "parishId": 142,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-11T16:30:00-06:00",
     "endDate": "2022-03-11T19:30:00-06:00"
   },
@@ -240,10 +213,7 @@
     "description": "Epiphany — Fish fry, 4:30–6:30 p.m. Fridays during Lent except Good Friday at 11001 Hanson Blvd. NW. Dine-in only. $12 adults, $8 ages 5-12 and seniors (62+), free ages 5 and under, $50 immediate family. Includes baked Tilapia, battered deep fried cod, and homemade cheese pizza with choice of potato (baked or tator tots), coleslaw, cookie and beverage. http://www.epiphanymn.org",
     "slug": "epiphany-fish-fry1",
     "parishId": 15,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-11T16:30:00-06:00",
     "endDate": "2022-03-11T18:30:00-06:00"
   },
@@ -252,10 +222,7 @@
     "description": "Epiphany — Fish fry, 4:30–6:30 p.m. Fridays during Lent except Good Friday at 11001 Hanson Blvd. NW. Dine-in only. $12 adults, $8 ages 5-12 and seniors (62+), free ages 5 and under, $50 immediate family. Includes baked Tilapia, battered deep fried cod, and homemade cheese pizza with choice of potato (baked or tator tots), coleslaw, cookie and beverage. http://www.epiphanymn.org",
     "slug": "epiphany-fish-fry2",
     "parishId": 15,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-18T16:30:00-05:00",
     "endDate": "2022-03-18T18:30:00-05:00"
   },
@@ -264,10 +231,7 @@
     "description": "Epiphany — Fish fry, 4:30–6:30 p.m. Fridays during Lent except Good Friday at 11001 Hanson Blvd. NW. Dine-in only. $12 adults, $8 ages 5-12 and seniors (62+), free ages 5 and under, $50 immediate family. Includes baked Tilapia, battered deep fried cod, and homemade cheese pizza with choice of potato (baked or tator tots), coleslaw, cookie and beverage. http://www.epiphanymn.org",
     "slug": "epiphany-fish-fry3",
     "parishId": 15,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-25T16:30:00-05:00",
     "endDate": "2022-03-25T18:30:00-05:00"
   },
@@ -276,10 +240,7 @@
     "description": "Epiphany — Fish fry, 4:30–6:30 p.m. Fridays during Lent except Good Friday at 11001 Hanson Blvd. NW. Dine-in only. $12 adults, $8 ages 5-12 and seniors (62+), free ages 5 and under, $50 immediate family. Includes baked Tilapia, battered deep fried cod, and homemade cheese pizza with choice of potato (baked or tator tots), coleslaw, cookie and beverage. http://www.epiphanymn.org",
     "slug": "epiphany-fish-fry4",
     "parishId": 15,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-01T16:30:00-05:00",
     "endDate": "2022-04-01T18:30:00-05:00"
   },
@@ -288,10 +249,7 @@
     "description": "Epiphany — Fish fry, 4:30–6:30 p.m. Fridays during Lent except Good Friday at 11001 Hanson Blvd. NW. Dine-in only. $12 adults, $8 ages 5-12 and seniors (62+), free ages 5 and under, $50 immediate family. Includes baked Tilapia, battered deep fried cod, and homemade cheese pizza with choice of potato (baked or tator tots), coleslaw, cookie and beverage. http://www.epiphanymn.org",
     "slug": "epiphany-fish-fry",
     "parishId": 15,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-08T16:30:00-05:00",
     "endDate": "2022-04-08T18:30:00-05:00"
   },
@@ -300,10 +258,7 @@
     "description": "St. Therese — Boxed fish dinner, 5–7:30 p.m. March 4 and 25 at 18323 Minnetonka Blvd. Take home or eat in. Advance purchases and cashless transactions recommended. $10 adults, $35 family (with small children). Includes beer-battered cod, French fries or jo-jo potatoes, macaroni and cheese and coleslaw. Stations of the Cross at 5:30 p.m. Tickets at http://www.st-therese.org",
     "slug": "st-therese-boxed-fish-dinner",
     "parishId": 194,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-25T17:00:00-05:00",
     "endDate": "2022-03-25T19:30:00-05:00"
   },
@@ -312,10 +267,7 @@
     "description": "St. Maximilian Kolbe — Seafood dinner, 4:30–7 p.m. March 19 at St. Peter campus, 217 S. Second St. To-go and curbside available. $15 adults, $10 ages 10 and under. Stations of the Cross at 7 p.m. http://www.stmaxkolbechurch.org",
     "slug": "st-maximilian-kolbe-seafood-dinner",
     "parishId": 178,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-19T16:30:00-05:00",
     "endDate": "2022-03-19T19:00:00-05:00"
   },
@@ -324,10 +276,7 @@
     "description": "St. John Neumann — Walleye fry, 4:30–6.30 p.m. March 11, 18, 25 and April 1, 8 at 4030 Pilot Knob Rd. Curbside pick-up only. $17 includes walleye, potato, coleslaw and roll. $4 ages 8 and under includes macaroni and cheese and animal crackers. Sponsored by St. John Neumann/Dakota County Elks and Knights of Columbus Council 7604. http://www.sjn.org",
     "slug": "st-john-neumann-walleye-fry1",
     "parishId": 114,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-11T16:30:00-06:00",
     "endDate": "2022-03-11T18:30:00-06:00"
   },
@@ -336,10 +285,7 @@
     "description": "St. John Neumann — Walleye fry, 4:30–6.30 p.m. March 11, 18, 25 and April 1, 8 at 4030 Pilot Knob Rd. Curbside pick-up only. $17 includes walleye, potato, coleslaw and roll. $4 ages 8 and under includes macaroni and cheese and animal crackers. Sponsored by St. John Neumann/Dakota County Elks and Knights of Columbus Council 7604. http://www.sjn.org",
     "slug": "st-john-neumann-walleye-fry2",
     "parishId": 114,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-18T16:30:00-05:00",
     "endDate": "2022-03-18T18:30:00-05:00"
   },
@@ -348,10 +294,7 @@
     "description": "St. John Neumann — Walleye fry, 4:30–6.30 p.m. March 11, 18, 25 and April 1, 8 at 4030 Pilot Knob Rd. Curbside pick-up only. $17 includes walleye, potato, coleslaw and roll. $4 ages 8 and under includes macaroni and cheese and animal crackers. Sponsored by St. John Neumann/Dakota County Elks and Knights of Columbus Council 7604. http://www.sjn.org",
     "slug": "st-john-neumann-walleye-fry3",
     "parishId": 114,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-25T16:30:00-05:00",
     "endDate": "2022-03-25T18:30:00-05:00"
   },
@@ -360,10 +303,7 @@
     "description": "Our Lady of Grace — Fish dinner, 5–8 p.m. April 8 at 5071 Eden Ave. Dine-in or drive-thru. $15 adults, $5 ages 10 and under. Includes Tin Fish-battered cod, pasta, baked potato, coleslaw, bread and butter, and cake. Back by popular demand: Father Kevin Finnegan’s Pub in Cassidy Hall. Proceeds support OLG youth groups. http://www.olgparish.org",
     "slug": "our-lady-of-grace-fish-dinner",
     "parishId": 45,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-08T17:00:00-05:00",
     "endDate": "2022-04-08T20:00:00-05:00"
   },
@@ -372,10 +312,7 @@
     "description": "St. Michael — Fish fry, 5–7 p.m. March 4 and April 1 at 22120 Denmark Ave. Dine-in or curbside take-out. Freewill donation. Includes fried Alaskan pollock (lemon wedge and tartar sauce on the side), tater tots, coleslaw, dinner roll with butter and cookie. Order for dine-in or schedule take-out time slot: churchofstmichael.flocknote.com/signup/80731. Stations of the Cross, Fridays during Lent except for Good Friday at 6:30 p.m. Hosted by Knights of Columbus. http://www.stmichael-farmington.org",
     "slug": "st-michael-fish-fry",
     "parishId": 160,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-01T17:00:00-05:00",
     "endDate": "2022-04-01T19:00:00-05:00"
   },
@@ -384,10 +321,7 @@
     "description": "St. Peter — Fish fry, 5–7 p.m. Fridays during Lent except for Good Friday at 1250 South Shore Drive. Freewill offering (suggested donation $9 adults, $5 children). Includes fried cod, baked tilapia, fries or potatoes, coleslaw, Texas toast, beverage and dessert. Alternative meal includes meatless pasta or grilled cheese sandwich. Takeout is available. Confessions 6–6:45 p.m., Stations of the Cross at 7 p.m. http://www.stpeterfl.org",
     "slug": "st-peter-fish-fry1",
     "parishId": 181,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-11T17:00:00-06:00",
     "endDate": "2022-03-11T19:00:00-06:00"
   },
@@ -396,10 +330,7 @@
     "description": "St. Peter — Fish fry, 5–7 p.m. Fridays during Lent except for Good Friday at 1250 South Shore Drive. Freewill offering (suggested donation $9 adults, $5 children). Includes fried cod, baked tilapia, fries or potatoes, coleslaw, Texas toast, beverage and dessert. Alternative meal includes meatless pasta or grilled cheese sandwich. Takeout is available. Confessions 6–6:45 p.m., Stations of the Cross at 7 p.m. http://www.stpeterfl.org",
     "slug": "st-peter-fish-fry2",
     "parishId": 181,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-18T17:00:00-05:00",
     "endDate": "2022-03-18T19:00:00-05:00"
   },
@@ -409,10 +340,7 @@
     "description": "St. Peter — Fish fry, 5–7 p.m. Fridays during Lent except for Good Friday at 1250 South Shore Drive. Freewill offering (suggested donation $9 adults, $5 children). Includes fried cod, baked tilapia, fries or potatoes, coleslaw, Texas toast, beverage and dessert. Alternative meal includes meatless pasta or grilled cheese sandwich. Takeout is available. Confessions 6–6:45 p.m., Stations of the Cross at 7 p.m. http://www.stpeterfl.org",
     "slug": "st-peter-fish-fry3",
     "parishId": 181,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-25T17:00:00-05:00",
     "endDate": "2022-03-25T19:00:00-05:00"
   },
@@ -421,10 +349,7 @@
     "description": "St. Peter — Fish fry, 5–7 p.m. Fridays during Lent except for Good Friday at 1250 South Shore Drive. Freewill offering (suggested donation $9 adults, $5 children). Includes fried cod, baked tilapia, fries or potatoes, coleslaw, Texas toast, beverage and dessert. Alternative meal includes meatless pasta or grilled cheese sandwich. Takeout is available. Confessions 6–6:45 p.m., Stations of the Cross at 7 p.m. http://www.stpeterfl.org",
     "slug": "st-peter-fish-fry4",
     "parishId": 181,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-01T17:00:00-05:00",
     "endDate": "2022-04-01T19:00:00-05:00"
   },
@@ -433,10 +358,7 @@
     "description": "St. Peter — Fish fry, 5–7 p.m. Fridays during Lent except for Good Friday at 1250 South Shore Drive. Freewill offering (suggested donation $9 adults, $5 children). Includes fried cod, baked tilapia, fries or potatoes, coleslaw, Texas toast, beverage and dessert. Alternative meal includes meatless pasta or grilled cheese sandwich. Takeout is available. Confessions 6–6:45 p.m., Stations of the Cross at 7 p.m. http://www.stpeterfl.org",
     "slug": "st-peter-fish-fry5",
     "parishId": 181,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-08T17:00:00-05:00",
     "endDate": "2022-04-08T19:00:00-05:00"
   },
@@ -445,10 +367,7 @@
     "description": "St. Gabriel the Archangel — Fish fry dinner, 5–7:30 p.m. March 4, 18 and April 1 at 1310 Mainstreet. $15 adults, $12 seniors and ages 5-11, free ages 4 and under. Includes fried fish, baked fish, fish tacos, potatoes, rice, mixed vegetables, coleslaw, macaroni and cheese, bread, desserts, soft drinks and coffee. Tickets at the door. http://www.stgabrielhopkins.org",
     "slug": "st-gabriel-the-archangel-fish-fry-dinner1",
     "parishId": 101,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-18T17:00:00-05:00",
     "endDate": "2022-03-18T19:30:00-05:00"
   },
@@ -457,10 +376,7 @@
     "description": "St. Gabriel the Archangel — Fish fry dinner, 5–7:30 p.m. March 4, 18 and April 1 at 1310 Mainstreet. $15 adults, $12 seniors and ages 5-11, free ages 4 and under. Includes fried fish, baked fish, fish tacos, potatoes, rice, mixed vegetables, coleslaw, macaroni and cheese, bread, desserts, soft drinks and coffee. Tickets at the door. http://www.stgabrielhopkins.org",
     "slug": "st-gabriel-the-archangel-fish-fry-dinner",
     "parishId": 101,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-01T17:00:00-05:00",
     "endDate": "2022-04-01T19:30:00-05:00"
   },
@@ -470,10 +386,7 @@
     "description": "St. John the Baptist — Fish fry dinner, 4:30–7 p.m. March 4 and March 18 at 313 E. Second St. $10 adults, $5 ages 4-12, free ages 3 and under. Includes fish, beans, potato salad, coleslaw, dinner rolls, dessert and beverages. Takeout orders available. Hosted by the Jordan Lions and Lionesses. Proceeds support various community projects. http://www.sjbjordan.org",
     "slug": "st-john-the-baptist-fish-fry-dinner1",
     "parishId": 119,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-18T16:30:00-05:00",
     "endDate": "2022-03-18T19:00:00-05:00"
   },
@@ -482,10 +395,7 @@
     "description": "St. Bridget of Sweden — Fish dinner, 3:30–4:30 p.m. to-go orders, 5–7 p.m. dine-in: Fridays during Lent except for Good Friday at 13060 Lake Blvd. $12 adults, $10 seniors (65+), $7 ages 6-12, free ages 5 and under. Includes all-you-can-eat pub-battered or baked cod, French fries, green beans, coleslaw, dinner rolls and dessert. Kids’ alternative meal: meatless spaghetti. Delivery to the homebound offered. For more information, call the parish office at 651-257-2474 or visit http://www.stbridgetofsweden.org/fishfry",
     "slug": "st-bridget-of-sweden-fish-dinner1",
     "parishId": 83,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-11T15:30:00-06:00",
     "endDate": "2022-03-11T19:00:00-06:00"
   },
@@ -494,10 +404,7 @@
     "description": "St. Bridget of Sweden — Fish dinner, 3:30–4:30 p.m. to-go orders, 5–7 p.m. dine-in: Fridays during Lent except for Good Friday at 13060 Lake Blvd. $12 adults, $10 seniors (65+), $7 ages 6-12, free ages 5 and under. Includes all-you-can-eat pub-battered or baked cod, French fries, green beans, coleslaw, dinner rolls and dessert. Kids’ alternative meal: meatless spaghetti. Delivery to the homebound offered. For more information, call the parish office at 651-257-2474 or visit http://www.stbridgetofsweden.org/fishfry",
     "slug": "st-bridget-of-sweden-fish-dinner2",
     "parishId": 83,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-18T15:30:00-05:00",
     "endDate": "2022-03-18T19:00:00-05:00"
   },
@@ -506,10 +413,7 @@
     "description": "St. Bridget of Sweden — Fish dinner, 3:30–4:30 p.m. to-go orders, 5–7 p.m. dine-in: Fridays during Lent except for Good Friday at 13060 Lake Blvd. $12 adults, $10 seniors (65+), $7 ages 6-12, free ages 5 and under. Includes all-you-can-eat pub-battered or baked cod, French fries, green beans, coleslaw, dinner rolls and dessert. Kids’ alternative meal: meatless spaghetti. Delivery to the homebound offered. For more information, call the parish office at 651-257-2474 or visit http://www.stbridgetofsweden.org/fishfry",
     "slug": "st-bridget-of-sweden-fish-dinner3",
     "parishId": 83,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-25T15:30:00-05:00",
     "endDate": "2022-03-25T19:00:00-05:00"
   },
@@ -518,10 +422,7 @@
     "description": "St. Bridget of Sweden — Fish dinner, 3:30–4:30 p.m. to-go orders, 5–7 p.m. dine-in: Fridays during Lent except for Good Friday at 13060 Lake Blvd. $12 adults, $10 seniors (65+), $7 ages 6-12, free ages 5 and under. Includes all-you-can-eat pub-battered or baked cod, French fries, green beans, coleslaw, dinner rolls and dessert. Kids’ alternative meal: meatless spaghetti. Delivery to the homebound offered. For more information, call the parish office at 651-257-2474 or visit http://www.stbridgetofsweden.org/fishfry",
     "slug": "st-bridget-of-sweden-fish-dinner4",
     "parishId": 83,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-01T15:30:00-05:00",
     "endDate": "2022-04-01T19:00:00-05:00"
   },
@@ -530,10 +431,7 @@
     "description": "St. Bridget of Sweden — Fish dinner, 3:30–4:30 p.m. to-go orders, 5–7 p.m. dine-in: Fridays during Lent except for Good Friday at 13060 Lake Blvd. $12 adults, $10 seniors (65+), $7 ages 6-12, free ages 5 and under. Includes all-you-can-eat pub-battered or baked cod, French fries, green beans, coleslaw, dinner rolls and dessert. Kids’ alternative meal: meatless spaghetti. Delivery to the homebound offered. For more information, call the parish office at 651-257-2474 or visit http://www.stbridgetofsweden.org/fishfry",
     "slug": "st-bridget-of-sweden-fish-dinner",
     "parishId": 83,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-08T15:30:00-05:00",
     "endDate": "2022-04-08T19:00:00-05:00"
   },
@@ -542,10 +440,7 @@
     "description": "St. Joseph — Fish dinner. 5–7 p.m., March 11, 18, 25 and April 1 at 171 Elm St. (Great Hall). Dine-in or takeout. $14 adults, $7 ages 5-10, free ages 4 and under, $40 family. Includes baked or pan-fried Icelandic cod, tomato basil soup, roasted potatoes, green beans, creamy coleslaw, bread, coffee, water and desserts. Tickets available at the door. http://www.mystjoes.me",
     "slug": "st-joseph-fish-dinner1",
     "parishId": 135,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-11T17:00:00-06:00",
     "endDate": "2022-03-11T19:00:00-06:00"
   },
@@ -554,10 +449,7 @@
     "description": "St. Joseph — Fish dinner. 5–7 p.m., March 11, 18, 25 and April 1 at 171 Elm St. (Great Hall). Dine-in or takeout. $14 adults, $7 ages 5-10, free ages 4 and under, $40 family. Includes baked or pan-fried Icelandic cod, tomato basil soup, roasted potatoes, green beans, creamy coleslaw, bread, coffee, water and desserts. Tickets available at the door. http://www.mystjoes.me",
     "slug": "st-joseph-fish-dinner2",
     "parishId": 135,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-18T17:00:00-05:00",
     "endDate": "2022-03-18T19:00:00-05:00"
   },
@@ -566,10 +458,7 @@
     "description": "St. Joseph — Fish dinner. 5–7 p.m., March 11, 18, 25 and April 1 at 171 Elm St. (Great Hall). Dine-in or takeout. $14 adults, $7 ages 5-10, free ages 4 and under, $40 family. Includes baked or pan-fried Icelandic cod, tomato basil soup, roasted potatoes, green beans, creamy coleslaw, bread, coffee, water and desserts. Tickets available at the door. http://www.mystjoes.me",
     "slug": "st-joseph-fish-dinner3",
     "parishId": 135,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-03-25T17:00:00-05:00",
     "endDate": "2022-03-25T19:00:00-05:00"
   },
@@ -578,10 +467,7 @@
     "description": "St. Joseph — Fish dinner. 5–7 p.m., March 11, 18, 25 and April 1 at 171 Elm St. (Great Hall). Dine-in or takeout. $14 adults, $7 ages 5-10, free ages 4 and under, $40 family. Includes baked or pan-fried Icelandic cod, tomato basil soup, roasted potatoes, green beans, creamy coleslaw, bread, coffee, water and desserts. Tickets available at the door. http://www.mystjoes.me",
     "slug": "st-joseph-fish-dinne4r",
     "parishId": 135,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-01T17:00:00-05:00",
     "endDate": "2022-04-01T19:00:00-05:00"
   },
@@ -591,10 +477,7 @@
     "description": "Immaculate Conception — Fish dinner, 4–7 p.m., March 4 and April 1 at the Civic Center, 202 Alabama St. SE. Dine-in or takeout available. $13 adults, $8 children, free ages 6 and under. Includes fried and baked fish, au gratin potatoes, steamed vegetables, coleslaw, fresh baked dinner roll and dessert. Proceeds support local pro-life ministries. http://www.icchurch.cc",
     "slug": "immaculate-conception-fish-dinner",
     "parishId": 32,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-01T16:00:00-05:00",
     "endDate": "2022-04-01T19:00:00-05:00"
   },
@@ -603,10 +486,7 @@
     "description": "Sts. Peter and Paul — Fish fry, 5–7 p.m., April 8 at 150 Railway St. E. $13 adults, $11 ages 65+, $6 ages 4-10, free ages 3 and under, $50 family. Includes baked cod, deep-fried cod, baked potato, macaroni and cheese, coleslaw, bread and cookies. Takeout available. Prepared by Dobo’s Catering. Served by Knights of Columbus Council 9601. KC’s Living Stations at 7 p.m.\nhttp://www.saintsppta.org",
     "slug": "sts-peter-and-paul-fish-fry",
     "parishId": 63,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-08T17:00:00-05:00",
     "endDate": "2022-04-08T19:00:00-05:00"
   },
@@ -615,10 +495,7 @@
     "description": "St. Jude of the Lake — Fish fry, 5:30–7:30 p.m. (or until fish is gone), April 1 at 700 Mahtomedi Ave. $12 adults, $8 seniors (65+), $5 ages 12 and under. Includes baked tilapia, baked breaded cod, potatoes, macaroni and cheese, green beans, dinner roll and dessert. Wine, beer and pop available for purchase. http://www.stjudeofthelake.org",
     "slug": "st-jude-of-the-lake-fish-fry",
     "parishId": 137,
-    "categories": [
-      "fish",
-      "dinner"
-    ],
+    "categories": ["fish", "dinner"],
     "startDate": "2022-04-01T17:30:00-05:00",
     "endDate": "2022-04-01T19:30:00-05:00"
   }
