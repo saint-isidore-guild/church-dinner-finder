@@ -36,6 +36,7 @@ export default {
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
     '@nuxtjs/dotenv',
+    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -58,6 +59,10 @@ export default {
         },
       },
     },
+  },
+
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_UA_ID,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
