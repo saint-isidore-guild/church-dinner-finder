@@ -4,17 +4,24 @@
       <v-card class="logo py-4 d-flex justify-center">
         <EventMap :events="events" />
       </v-card>
-      <v-card>
-        <v-card-title class="headline"> Upcoming </v-card-title>
-        <v-card-text>
-          <EventCard v-for="event in events" :key="event.slug" :event="event" />
-        </v-card-text>
-      </v-card>
+      <div v-if="events.length">
+        <h2 class="headline my-4"> Upcoming </h2>
+        <div v-for="(eventList, date) in eventsByDate" :key="date" class="mb-5">
+          <h3>{{date}}</h3>
+          <v-divider class="my-2" />
+          <EventCard v-for="event in eventList" :key="event.slug" :event="event" class="mb-1" />
+        </div>
+      </div>
+      <div v-else>
+        <h2>No upcoming events</h2>
+      </div>
     </v-col>
   </v-row>
 </template>
 
 <script>
+import moment from 'moment'
+
 import parishes from '@/util/parishes'
 export default {
   name: 'IndexPage',
@@ -37,5 +44,20 @@ export default {
       title: '2022',
     }
   },
+  computed: {
+    eventsByDate() {
+      if (!this.events.length) {
+        return {}
+      }
+      return this.events.reduce((acc, curr) => {
+        const shortDate = moment(curr.startDate).format('LL')
+        if (!acc[shortDate]) {
+          acc[shortDate] = [] // If this type wasn't previously stored
+        }
+        acc[shortDate].push(curr)
+        return acc
+      }, {})
+    },
+  }
 }
 </script>
