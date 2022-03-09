@@ -5,7 +5,6 @@
 <script>
 import moment from 'moment'
 
-const apiKey = process.env.GOOGLE_MAPS_API_KEY
 export default {
   name: 'EventMap',
   props: {
@@ -23,11 +22,7 @@ export default {
     }
   },
   head() {
-    return {
-      script: [
-        { src: `https://maps.googleapis.com/maps/api/js?key=${apiKey}` },
-      ],
-    }
+    return {}
   },
   computed: {
     eventsByParish() {
