@@ -2,7 +2,9 @@
   <v-card>
     <v-card-title primary-title>
       <div>
-        <h3 class="headline mb-0"><a :href="event.parish.website" target="_blank" >{{ event.title }}</a></h3>
+        <h3 class="headline mb-0">
+          <a :href="event.parish.website" target="_blank">{{ event.title }}</a>
+        </h3>
         <div>{{ startDate }} - {{ endDate }}</div>
       </div>
     </v-card-title>
@@ -10,7 +12,7 @@
       {{ event.description }}
     </v-card-text>
     <v-card-actions>
-       <v-btn text target="_blank" :href="event.parish.website">Details</v-btn>
+      <v-btn text target="_blank" :href="event.parish.website">Details</v-btn>
     </v-card-actions>
   </v-card>
 </template>
