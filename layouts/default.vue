@@ -2,6 +2,9 @@
   <v-app dark>
     <v-app-bar fixed app>
       <v-toolbar-title v-text="title" />
+      <v-spacer />
+      <v-btn text to="/" :nuxt="true">Fish Fry</v-btn>
+      <v-btn text to="/dinners" :nuxt="true">Dinners</v-btn>
     </v-app-bar>
     <v-main>
       <v-container>
