@@ -6,13 +6,15 @@
     "startDate": "2022-03-11T16:30:00-06:00",
     "endDate": "2022-03-11T19:00:00-06:00",
     "parishId": 145,
-    "description": "Fish fry runs from 4:30 to 7pm in the school cafeteria. Dine-in: $12 adult, $9 child, small family (4 meals) $40, and large family (6 meals) $50. Meals include fried fish, coleslaw, mac and cheese, chips, a cookie, and a drink. Fries are available for extra charge. Soup suppers all other Fridays in Lent except Good Friday in Carolyn Hall. https://onestrongfamily.org/lent"
+    "website": "https://onestrongfamily.org/lent",
+    "description": "Fish fry runs from 4:30 to 7pm in the school cafeteria. Dine-in: $12 adult, $9 child, small family (4 meals) $40, and large family (6 meals) $50. Meals include fried fish, coleslaw, mac and cheese, chips, a cookie, and a drink. Fries are available for extra charge. Soup suppers all other Fridays in Lent except Good Friday in Carolyn Hall."
   },
   {
     "title": "St. Timothy Fish Dinner",
     "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
     "slug": "st-timothy-fish-dinner1",
     "parishId": 201,
+    "website": "https://www.churchofsttimothy.com/fish-fry-2022",
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-04T16:45:00-06:00",
     "endDate": "2022-03-04T18:00:00-06:00"
@@ -22,6 +24,7 @@
     "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
     "slug": "st-timothy-fish-dinner2",
     "parishId": 201,
+    "website": "https://www.churchofsttimothy.com/fish-fry-2022",
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-11T16:45:00-06:00",
     "endDate": "2022-03-11T18:00:00-06:00"
@@ -31,6 +34,7 @@
     "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
     "slug": "st-timothy-fish-dinner3",
     "parishId": 201,
+    "website": "https://www.churchofsttimothy.com/fish-fry-2022",
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-18T16:45:00-05:00",
     "endDate": "2022-03-18T18:00:00-05:00"
@@ -40,6 +44,7 @@
     "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
     "slug": "st-timothy-fish-dinner4",
     "parishId": 201,
+    "website": "https://www.churchofsttimothy.com/fish-fry-2022",
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-25T16:45:00-05:00",
     "endDate": "2022-03-25T18:00:00-05:00"
@@ -49,6 +54,7 @@
     "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
     "slug": "st-timothy-fish-dinner5",
     "parishId": 201,
+    "website": "https://www.churchofsttimothy.com/fish-fry-2022",
     "categories": ["fish", "dinner"],
     "startDate": "2022-04-01T16:45:00-05:00",
     "endDate": "2022-04-01T18:00:00-05:00"
@@ -58,6 +64,7 @@
     "description": "St. Timothy — Fish dinner, Feb. 25 and all Fridays in Lent except Good Friday at 707 89th Ave. NE. 4:45 p.m. and 6 p.m. only. Dine-in: limited seating. Takeout: limited meals. Reservations required. $14. Includes choice of baked or fried fish, coleslaw, baked beans, potato salad, cookie and (for dine-in only) beverage. Reservations: online at http://www.churchofsttimothy.com/fish-fry-2022 or call 1-800-972-0418. Hosted by Knights of Columbus Council 5141.",
     "slug": "st-timothy-fish-dinner6",
     "parishId": 201,
+    "website": "https://www.churchofsttimothy.com/fish-fry-2022",
     "categories": ["fish", "dinner"],
     "startDate": "2022-04-08T16:45:00-05:00",
     "endDate": "2022-04-08T18:00:00-05:00"
@@ -85,6 +92,7 @@
     "description": "Fish dinner, 5–7 p.m. March 11 at 9401 Nesbitt Ave. S. Dine-in or drive-thru. $15, free ages 7 and under, $50 family four-pack. Includes beer-battered cod or macaroni and cheese, French fries, coleslaw, dessert, condiments and a beverage. Proceeds support youth ministries. Preorder online at http://www.stedwardschurch.org/signup",
     "slug": "st-edward-fish-dinner",
     "parishId": 94,
+    "website": "https://stedwardschurch.org/event/2022-fish-fry/",
     "categories": ["fish"],
     "startDate": "2022-03-11T17:00:00-06:00",
     "endDate": "2022-03-11T19:00:00-06:00"
@@ -175,6 +183,7 @@
     "description": "Guardian Angels — Fish fry, 4–7:30 p.m. March 11 and 25, and April 8 at Guardian Angels gym, First St. and Cedar St. Dine-in or curbside pick-up available. $14 adults, $6 ages 5-12, free ages 4 and under. Includes Pollock fish (breaded and beer batter), mashed potatoes, potato salad, coleslaw, dinner roll and beverage (coffee, milk and water). Sponsored by Chaska/Carver Knights of Columbus. http://www.gachaska.org",
     "slug": "guardian-angels-fish-fry1",
     "parishId": 19,
+    "website": "https://www.guardian-angels.org/fish-fry/",
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-11T16:00:00-06:00",
     "endDate": "2022-03-11T19:30:00-06:00"
@@ -184,6 +193,7 @@
     "description": "Guardian Angels — Fish fry, 4–7:30 p.m. March 11 and 25, and April 8 at Guardian Angels gym, First St. and Cedar St. Dine-in or curbside pick-up available. $14 adults, $6 ages 5-12, free ages 4 and under. Includes Pollock fish (breaded and beer batter), mashed potatoes, potato salad, coleslaw, dinner roll and beverage (coffee, milk and water). Sponsored by Chaska/Carver Knights of Columbus. http://www.gachaska.org",
     "slug": "guardian-angels-fish-fry2",
     "parishId": 19,
+    "website": "https://www.guardian-angels.org/fish-fry/",
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-25T16:00:00-05:00",
     "endDate": "2022-03-25T19:30:00-05:00"
@@ -193,6 +203,7 @@
     "description": "Guardian Angels — Fish fry, 4–7:30 p.m. March 11 and 25, and April 8 at Guardian Angels gym, First St. and Cedar St. Dine-in or curbside pick-up available. $14 adults, $6 ages 5-12, free ages 4 and under. Includes Pollock fish (breaded and beer batter), mashed potatoes, potato salad, coleslaw, dinner roll and beverage (coffee, milk and water). Sponsored by Chaska/Carver Knights of Columbus. http://www.gachaska.org",
     "slug": "guardian-angels-fish-fry3",
     "parishId": 19,
+    "website": "https://www.guardian-angels.org/fish-fry/",
     "categories": ["fish", "dinner"],
     "startDate": "2022-04-08T16:00:00-05:00",
     "endDate": "2022-04-08T19:30:00-05:00"
@@ -391,6 +402,7 @@
     "description": "St. Bridget of Sweden — Fish dinner, 3:30–4:30 p.m. to-go orders, 5–7 p.m. dine-in: Fridays during Lent except for Good Friday at 13060 Lake Blvd. $12 adults, $10 seniors (65+), $7 ages 6-12, free ages 5 and under. Includes all-you-can-eat pub-battered or baked cod, French fries, green beans, coleslaw, dinner rolls and dessert. Kids’ alternative meal: meatless spaghetti. Delivery to the homebound offered. For more information, call the parish office at 651-257-2474 or visit http://www.stbridgetofsweden.org/fishfry",
     "slug": "st-bridget-of-sweden-fish-dinner1",
     "parishId": 83,
+    "website": "https://www.stbridgetofsweden.org/fishfry",
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-11T15:30:00-06:00",
     "endDate": "2022-03-11T19:00:00-06:00"
@@ -400,6 +412,7 @@
     "description": "St. Bridget of Sweden — Fish dinner, 3:30–4:30 p.m. to-go orders, 5–7 p.m. dine-in: Fridays during Lent except for Good Friday at 13060 Lake Blvd. $12 adults, $10 seniors (65+), $7 ages 6-12, free ages 5 and under. Includes all-you-can-eat pub-battered or baked cod, French fries, green beans, coleslaw, dinner rolls and dessert. Kids’ alternative meal: meatless spaghetti. Delivery to the homebound offered. For more information, call the parish office at 651-257-2474 or visit http://www.stbridgetofsweden.org/fishfry",
     "slug": "st-bridget-of-sweden-fish-dinner2",
     "parishId": 83,
+    "website": "https://www.stbridgetofsweden.org/fishfry",
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-18T15:30:00-05:00",
     "endDate": "2022-03-18T19:00:00-05:00"
@@ -409,6 +422,7 @@
     "description": "St. Bridget of Sweden — Fish dinner, 3:30–4:30 p.m. to-go orders, 5–7 p.m. dine-in: Fridays during Lent except for Good Friday at 13060 Lake Blvd. $12 adults, $10 seniors (65+), $7 ages 6-12, free ages 5 and under. Includes all-you-can-eat pub-battered or baked cod, French fries, green beans, coleslaw, dinner rolls and dessert. Kids’ alternative meal: meatless spaghetti. Delivery to the homebound offered. For more information, call the parish office at 651-257-2474 or visit http://www.stbridgetofsweden.org/fishfry",
     "slug": "st-bridget-of-sweden-fish-dinner3",
     "parishId": 83,
+    "website": "https://www.stbridgetofsweden.org/fishfry",
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-25T15:30:00-05:00",
     "endDate": "2022-03-25T19:00:00-05:00"
@@ -418,6 +432,7 @@
     "description": "St. Bridget of Sweden — Fish dinner, 3:30–4:30 p.m. to-go orders, 5–7 p.m. dine-in: Fridays during Lent except for Good Friday at 13060 Lake Blvd. $12 adults, $10 seniors (65+), $7 ages 6-12, free ages 5 and under. Includes all-you-can-eat pub-battered or baked cod, French fries, green beans, coleslaw, dinner rolls and dessert. Kids’ alternative meal: meatless spaghetti. Delivery to the homebound offered. For more information, call the parish office at 651-257-2474 or visit http://www.stbridgetofsweden.org/fishfry",
     "slug": "st-bridget-of-sweden-fish-dinner4",
     "parishId": 83,
+    "website": "https://www.stbridgetofsweden.org/fishfry",
     "categories": ["fish", "dinner"],
     "startDate": "2022-04-01T15:30:00-05:00",
     "endDate": "2022-04-01T19:00:00-05:00"
@@ -425,8 +440,9 @@
   {
     "title": "St. Bridget of Sweden Fish Dinner",
     "description": "St. Bridget of Sweden — Fish dinner, 3:30–4:30 p.m. to-go orders, 5–7 p.m. dine-in: Fridays during Lent except for Good Friday at 13060 Lake Blvd. $12 adults, $10 seniors (65+), $7 ages 6-12, free ages 5 and under. Includes all-you-can-eat pub-battered or baked cod, French fries, green beans, coleslaw, dinner rolls and dessert. Kids’ alternative meal: meatless spaghetti. Delivery to the homebound offered. For more information, call the parish office at 651-257-2474 or visit http://www.stbridgetofsweden.org/fishfry",
-    "slug": "st-bridget-of-sweden-fish-dinner",
+    "slug": "st-bridget-of-sweden-fish-dinner5",
     "parishId": 83,
+    "website": "https://www.stbridgetofsweden.org/fishfry",
     "categories": ["fish", "dinner"],
     "startDate": "2022-04-08T15:30:00-05:00",
     "endDate": "2022-04-08T19:00:00-05:00"
@@ -499,6 +515,7 @@
     "description": "St. Jerome — Fish dinner, 5–7:30 p.m., April 8 at 380 Roselawn Ave. Preorder and pre-pay only. Curbside pick-up or dine-in with time slots. $15 for 3 pieces, $13 for two pieces, $11 for one piece. Includes hand-battered, four oz. deep-fried cod, French fries, coleslaw, baked beans and dessert. Alternative dinner: $10. Includes pasta with meatless red sauce, and all of the above except fish. To order: http://www.stjeromefishfry.org",
     "slug": "st-jerome-fish-dinner",
     "parishId": 112,
+    "website": "http://www.stjeromefishfry.org",
     "categories": ["fish", "dinner"],
     "startDate": "2022-04-08T17:00:00-05:00",
     "endDate": "2022-04-08T19:30:00-05:00"
@@ -600,7 +617,7 @@
     "parishId": 205,
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-11T11:00:00-06:00",
-    "endDate": "2022-03-11T13:00:00-06:00"
+    "endDate": "2022-03-11T19:00:00-06:00"
   },
   {
     "title": "St. Wenceslaus School Fish Fry",
@@ -805,6 +822,7 @@
     "description": "Mary Queen of Peace — Baked fish dinner, 4:30–6:30 p.m. March 1, 25 and April 8 at 21304 Church Ave. Dine-in (parish center) or curbside pick-up (door 8). $14. Includes baked cod, macaroni and cheese, baked potato, coleslaw, roll, cookie and beverage. Sponsored by Knight of Columbus Council 11941. Pick-up times and dine-in time slots at http://www.bookapew.com/app/mn/mqp",
     "slug": "mary-queen-of-peace-—-baked-fish-dinner",
     "parishId": 38,
+    "website": "http://www.bookapew.com/app/mn/mqp",
     "categories": ["fish", "dinner"],
     "startDate": "2022-03-25T16:30:00-05:00",
     "endDate": "2022-03-25T18:30:00-05:00"
@@ -814,6 +832,7 @@
     "description": "Mary Queen of Peace — Baked fish dinner, 4:30–6:30 p.m. March 1, 25 and April 8 at 21304 Church Ave. Dine-in (parish center) or curbside pick-up (door 8). $14. Includes baked cod, macaroni and cheese, baked potato, coleslaw, roll, cookie and beverage. Sponsored by Knight of Columbus Council 11941. Pick-up times and dine-in time slots at http://www.bookapew.com/app/mn/mqp",
     "slug": "mary-queen-of-peace-—-baked-fish-dinner",
     "parishId": 38,
+    "website": "http://www.bookapew.com/app/mn/mqp",
     "categories": ["fish", "dinner"],
     "startDate": "2022-04-08T16:30:00-05:00",
     "endDate": "2022-04-08T18:30:00-05:00"
@@ -1258,5 +1277,16 @@
     "categories": ["fish", "dinner"],
     "startDate": "2022-04-01T16:30:00-06:00",
     "endDate": "2022-04-01T18:30:00-06:00"
+  },
+  {
+    "title": "St. Patrick’s Ham Dinner",
+    "description": "St. Paul — St. Patrick’s ham dinner, 10:30 a.m.–1 p.m. March 27 at the Zumbrota VFW, 25 East First St. $12 adult, $6 ages 6-12, free ages 5 and under. Includes ham, mashed potatoes with gravy, green beans, vegetables salad, buns, dessert and beverage. Takeout available. http://www.stpaulstmichael.com",
+    "slug": "st-patrick’s-ham-dinner",
+    "parishId": 176,
+    "categories": [
+      "dinner"
+    ],
+    "startDate": "2022-03-27T10:30:00-05:00",
+    "endDate": "2022-03-27T13:00:00-05:00"
   }
 ]
