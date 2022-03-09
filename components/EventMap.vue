@@ -60,7 +60,7 @@ export default {
       let eventDateString = ''
       parishEvents.forEach((event) => {
         eventDateString += `<li>${moment(event.startDate).format(
-          'MMMM d, h:mm a'
+          'MMMM D, h:mm a'
         )}</li>`
       })
 

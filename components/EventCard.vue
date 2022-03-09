@@ -2,7 +2,9 @@
   <v-card>
     <v-card-title primary-title>
       <div>
-        <h3 class="headline mb-0">{{ event.title }}</h3>
+        <h3 class="headline mb-0">
+          <a :href="event.parish.website" target="_blank">{{ event.title }}</a>
+        </h3>
         <div>{{ startDate }} - {{ endDate }}</div>
       </div>
     </v-card-title>
