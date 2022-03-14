@@ -742,8 +742,8 @@
     "slug": "st-michael-fish-fry",
     "parishId": 164,
     "categories": ["fish"],
-    "startDate": "2022-03-18T16:30:00-06:00",
-    "endDate": "2022-03-18T19:00:00-06:00"
+    "startDate": "2022-03-18T16:30:00-05:00",
+    "endDate": "2022-03-18T19:00:00-05:00"
   },
   {
     "title": "St. Michael Fish Fry",
@@ -751,8 +751,8 @@
     "slug": "st-michael-fish-fry",
     "parishId": 164,
     "categories": ["fish"],
-    "startDate": "2022-03-25T16:30:00-06:00",
-    "endDate": "2022-03-25T19:00:00-06:00"
+    "startDate": "2022-03-25T16:30:00-05:00",
+    "endDate": "2022-03-25T19:00:00-05:00"
   },
   {
     "title": "St. Michael Fish Fry",
@@ -760,8 +760,8 @@
     "slug": "st-michael-fish-fry",
     "parishId": 164,
     "categories": ["fish"],
-    "startDate": "2022-04-01T16:30:00-06:00",
-    "endDate": "2022-04-01T19:00:00-06:00"
+    "startDate": "2022-04-01T16:30:00-05:00",
+    "endDate": "2022-04-01T19:00:00-05:00"
   },
   {
     "title": "St. Michael Fish Fry",
@@ -769,8 +769,8 @@
     "slug": "st-michael-fish-fry",
     "parishId": 164,
     "categories": ["fish"],
-    "startDate": "2022-04-08T16:30:00-06:00",
-    "endDate": "2022-04-08T19:00:00-06:00"
+    "startDate": "2022-04-08T16:30:00-05:00",
+    "endDate": "2022-04-08T19:00:00-05:00"
   },
   {
     "title": "St. Michael Fish Fry",
@@ -787,8 +787,8 @@
     "slug": "sacred-heart-catholic-school-fish-and-meatless-spaghetti-dinner",
     "parishId": 58,
     "categories": ["fish", "dinner"],
-    "startDate": "2022-03-11T16:30:00-06:00",
-    "endDate": "2022-03-11T19:00:00-06:00"
+    "startDate": "2022-03-11T16:30:00-05:00",
+    "endDate": "2022-03-11T19:00:00-05:00"
   },
   {
     "title": "Sacred Heart Catholic School Fish and Meatless Spaghetti Dinner",
@@ -796,8 +796,8 @@
     "slug": "sacred-heart-catholic-school-fish-and-meatless-spaghetti-dinner",
     "parishId": 58,
     "categories": ["fish", "dinner"],
-    "startDate": "2022-03-18T16:30:00-06:00",
-    "endDate": "2022-03-18T19:00:00-06:00"
+    "startDate": "2022-03-18T16:30:00-05:00",
+    "endDate": "2022-03-18T19:00:00-05:00"
   },
   {
     "title": "Sacred Heart Catholic School Fish and Meatless Spaghetti Dinner",
@@ -805,8 +805,8 @@
     "slug": "sacred-heart-catholic-school-fish-and-meatless-spaghetti-dinner",
     "parishId": 58,
     "categories": ["fish", "dinner"],
-    "startDate": "2022-03-25T16:30:00-06:00",
-    "endDate": "2022-03-25T19:00:00-06:00"
+    "startDate": "2022-03-25T16:30:00-05:00",
+    "endDate": "2022-03-25T19:00:00-05:00"
   },
   {
     "title": "Sacred Heart Catholic School Fish and Meatless Spaghetti Dinner",
@@ -814,8 +814,8 @@
     "slug": "sacred-heart-catholic-school-fish-and-meatless-spaghetti-dinner",
     "parishId": 58,
     "categories": ["fish", "dinner"],
-    "startDate": "2022-04-01T16:30:00-06:00",
-    "endDate": "2022-04-01T19:00:00-06:00"
+    "startDate": "2022-04-01T16:30:00-05:00",
+    "endDate": "2022-04-01T19:00:00-05:00"
   },
   {
     "title": "Mary Queen of Peace — Baked Fish Dinner",
@@ -879,8 +879,8 @@
     "slug": "st-john-vianney-fish-fry",
     "parishId": 125,
     "categories": ["fish"],
-    "startDate": "2022-03-18T16:00:00-06:00",
-    "endDate": "2022-03-18T18:30:00-06:00"
+    "startDate": "2022-03-18T15:00:00-06:00",
+    "endDate": "2022-03-18T17:30:00-06:00"
   },
   {
     "title": "St. John Vianney Fish Fry",
@@ -888,8 +888,8 @@
     "slug": "st-john-vianney-fish-fry",
     "parishId": 125,
     "categories": ["fish"],
-    "startDate": "2022-03-25T16:00:00-06:00",
-    "endDate": "2022-03-25T18:30:00-06:00"
+    "startDate": "2022-03-25T15:00:00-06:00",
+    "endDate": "2022-03-25T17:30:00-06:00"
   },
   {
     "title": "St. John Vianney Fish Fry",
@@ -897,8 +897,8 @@
     "slug": "st-john-vianney-fish-fry",
     "parishId": 125,
     "categories": ["fish"],
-    "startDate": "2022-04-01T16:00:00-06:00",
-    "endDate": "2022-04-01T18:30:00-06:00"
+    "startDate": "2022-04-01T15:00:00-06:00",
+    "endDate": "2022-04-01T17:30:00-06:00"
   },
   {
     "title": "St. John Vianney Fish Fry",
@@ -906,8 +906,8 @@
     "slug": "st-john-vianney-fish-fry",
     "parishId": 125,
     "categories": ["fish"],
-    "startDate": "2022-04-08T16:00:00-06:00",
-    "endDate": "2022-04-08T18:30:00-06:00"
+    "startDate": "2022-04-08T15:00:00-06:00",
+    "endDate": "2022-04-08T17:30:00-06:00"
   },
   {
     "title": "Holy Family Fish Dinner",
@@ -1059,8 +1059,8 @@
     "slug": "st-pascal-baylon-fish-fry",
     "parishId": 169,
     "categories": ["fish"],
-    "startDate": "2022-03-18T16:30:00-06:00",
-    "endDate": "2022-03-18T19:00:00-06:00"
+    "startDate": "2022-03-18T16:30:00-05:00",
+    "endDate": "2022-03-18T19:00:00-05:00"
   },
   {
     "title": "St. Pascal Baylon Fish Fry",
@@ -1068,8 +1068,8 @@
     "slug": "st-pascal-baylon-fish-fry",
     "parishId": 169,
     "categories": ["fish"],
-    "startDate": "2022-03-25T16:30:00-06:00",
-    "endDate": "2022-03-25T19:00:00-06:00"
+    "startDate": "2022-03-25T16:30:00-05:00",
+    "endDate": "2022-03-25T19:00:00-05:00"
   },
   {
     "title": "St. Pascal Baylon Fish Fry",
@@ -1077,8 +1077,8 @@
     "slug": "st-pascal-baylon-fish-fry",
     "parishId": 169,
     "categories": ["fish"],
-    "startDate": "2022-04-01T16:30:00-06:00",
-    "endDate": "2022-04-01T19:00:00-06:00"
+    "startDate": "2022-04-01T16:30:00-05:00",
+    "endDate": "2022-04-01T19:00:00-05:00"
   },
   {
     "title": "St. Pascal Baylon Fish Fry",
@@ -1086,8 +1086,8 @@
     "slug": "st-pascal-baylon-fish-fry",
     "parishId": 169,
     "categories": ["fish"],
-    "startDate": "2022-04-08T16:30:00-06:00",
-    "endDate": "2022-04-08T19:00:00-06:00"
+    "startDate": "2022-04-08T16:30:00-05:00",
+    "endDate": "2022-04-08T19:00:00-05:00"
   },
   {
     "title": "St. Thomas More School Fish Fry",
@@ -1131,8 +1131,8 @@
     "slug": "st-michael-—-fish-dry-dinners",
     "parishId": 162,
     "categories": ["fish"],
-    "startDate": "2022-03-18T16:30:00-06:00",
-    "endDate": "2022-03-18T19:00:00-06:00"
+    "startDate": "2022-03-18T16:30:00-05:00",
+    "endDate": "2022-03-18T19:00:00-05:00"
   },
   {
     "title": "St. Michael Fish Fry Dinner",
@@ -1140,8 +1140,8 @@
     "slug": "st-michael-—-fish-dry-dinners",
     "parishId": 162,
     "categories": ["fish"],
-    "startDate": "2022-03-25T16:30:00-06:00",
-    "endDate": "2022-03-25T19:00:00-06:00"
+    "startDate": "2022-03-25T16:30:00-05:00",
+    "endDate": "2022-03-25T19:00:00-05:00"
   },
   {
     "title": "St. Michael Fish Fry Dinner",
@@ -1149,8 +1149,8 @@
     "slug": "st-michael-—-fish-dry-dinners",
     "parishId": 162,
     "categories": ["fish"],
-    "startDate": "2022-04-01T16:30:00-06:00",
-    "endDate": "2022-04-01T19:00:00-06:00"
+    "startDate": "2022-04-01T16:30:00-05:00",
+    "endDate": "2022-04-01T19:00:00-05:00"
   },
   {
     "title": "St. Michael Fish Fry Dinner",
@@ -1158,8 +1158,8 @@
     "slug": "st-michael-—-fish-dry-dinners",
     "parishId": 162,
     "categories": ["fish"],
-    "startDate": "2022-04-08T16:30:00-06:00",
-    "endDate": "2022-04-08T19:00:00-06:00"
+    "startDate": "2022-04-08T16:30:00-05:00",
+    "endDate": "2022-04-08T19:00:00-05:00"
   },
   {
     "title": "St. Joseph Fish Fry",
@@ -1167,8 +1167,8 @@
     "slug": "st-joseph-—-fish-fry",
     "parishId": 129,
     "categories": ["fish"],
-    "startDate": "2022-03-18T00:00:00-06:00",
-    "endDate": "2022-03-18T00:00:00-06:00"
+    "startDate": "2022-03-18T16:30:00-05:00",
+    "endDate": "2022-03-18T19:30:00-05:00"
   },
   {
     "title": "St. Joseph Fish Fry",
@@ -1176,8 +1176,8 @@
     "slug": "st-joseph-—-fish-fry",
     "parishId": 129,
     "categories": ["fish"],
-    "startDate": "2022-03-25T00:00:00-06:00",
-    "endDate": "2022-03-25T00:00:00-06:00"
+    "startDate": "2022-03-25T16:30:00-05:00",
+    "endDate": "2022-03-25T19:30:00-05:00"
   },
   {
     "title": "St. Joseph Fish Fry",
@@ -1185,8 +1185,8 @@
     "slug": "st-joseph-—-fish-fry",
     "parishId": 129,
     "categories": ["fish"],
-    "startDate": "2022-04-01T00:00:00-06:00",
-    "endDate": "2022-04-01T00:00:00-06:00"
+    "startDate": "2022-04-01T16:30:00-05:00",
+    "endDate": "2022-04-01T19:30:00-05:00"
   },
   {
     "title": "St. Joseph Fish Fry",
@@ -1194,8 +1194,8 @@
     "slug": "st-joseph-—-fish-fry",
     "parishId": 129,
     "categories": ["fish"],
-    "startDate": "2022-04-08T00:00:00-06:00",
-    "endDate": "2022-04-08T00:00:00-06:00"
+    "startDate": "2022-04-08T16:30:00-05:00",
+    "endDate": "2022-04-08T19:30:00-05:00"
   },
   {
     "title": "St. Matthew Fish Fry",
@@ -1212,8 +1212,8 @@
     "slug": "st-matthew-fish-fry",
     "parishId": 158,
     "categories": ["fish"],
-    "startDate": "2022-03-18T16:30:00-06:00",
-    "endDate": "2022-03-18T19:30:00-06:00"
+    "startDate": "2022-03-18T16:30:00-05:00",
+    "endDate": "2022-03-18T19:30:00-05:00"
   },
   {
     "title": "St. Matthew Fish Fry",
@@ -1221,8 +1221,8 @@
     "slug": "st-matthew-fish-fry",
     "parishId": 158,
     "categories": ["fish"],
-    "startDate": "2022-03-25T16:30:00-06:00",
-    "endDate": "2022-03-25T19:30:00-06:00"
+    "startDate": "2022-03-25T16:30:00-05:00",
+    "endDate": "2022-03-25T19:30:00-05:00"
   },
   {
     "title": "St. Matthew Fish Fry",
@@ -1230,8 +1230,8 @@
     "slug": "st-matthew-fish-fry",
     "parishId": 158,
     "categories": ["fish"],
-    "startDate": "2022-04-01T16:30:00-06:00",
-    "endDate": "2022-04-01T19:30:00-06:00"
+    "startDate": "2022-04-01T16:30:00-05:00",
+    "endDate": "2022-04-01T19:30:00-05:00"
   },
   {
     "title": "St. Matthew Fish Fry",
@@ -1239,8 +1239,8 @@
     "slug": "st-matthew-fish-fry",
     "parishId": 158,
     "categories": ["fish"],
-    "startDate": "2022-04-08T16:30:00-06:00",
-    "endDate": "2022-04-08T19:30:00-06:00"
+    "startDate": "2022-04-08T16:30:00-05:00",
+    "endDate": "2022-04-08T19:30:00-05:00"
   },
   {
     "title": "St. Matthew Fish Fry",
@@ -1248,8 +1248,8 @@
     "slug": "st-matthew-fish-fry",
     "parishId": 158,
     "categories": ["fish"],
-    "startDate": "2022-04-15T16:30:00-06:00",
-    "endDate": "2022-04-15T19:30:00-06:00"
+    "startDate": "2022-04-15T16:30:00-05:00",
+    "endDate": "2022-04-15T19:30:00-05:00"
   },
   {
     "title": "St. Pius X — Fish Fry",
@@ -1266,8 +1266,8 @@
     "slug": "st-pius-x-—-fish-fry",
     "parishId": 185,
     "categories": ["fish"],
-    "startDate": "2022-03-18T16:30:00-06:00",
-    "endDate": "2022-03-18T18:30:00-06:00"
+    "startDate": "2022-03-18T16:30:00-05:00",
+    "endDate": "2022-03-18T18:30:00-05:00"
   },
   {
     "title": "St. Pius X — Fish Fry",
