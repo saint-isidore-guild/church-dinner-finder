@@ -1,0 +1,32 @@
+[
+    {
+      "title": "St. Marks Fish Fry",
+      "slug": "st-marks-fish-fry",
+      "categories": ["fish"],
+      "startDate": "2023-03-31T17:00:00-05:00",
+      "endDate": "2023-03-31T19:00:00-05:00",
+      "parishId": 145,
+      "website": "https://onestrongfamily.org/lent",
+      "description": "Fish fry runs from 4:30 to 7pm in the school cafeteria. Dine-in: $12 adult, $9 child, small family (4 meals) $40, and large family (6 meals) $50. Meals include fried fish, coleslaw, mac and cheese, chips, a cookie, and a drink. Fries are available for extra charge. Soup suppers all other Fridays in Lent except Good Friday in Carolyn Hall."
+    },
+    {
+        "title": "Nativity Fish Fry",
+        "slug": "nativity-fish-fry1",
+        "categories": ["fish"],
+        "startDate": "2023-02-24T17:00:00-06:00",
+        "endDate": "2023-02-27T20:00:00-06:00",
+        "parishId": 43,
+        "website": "https://nativity-mn.org/events/lenten-fish-fry-2023",
+        "description": "Come join us in the school cafeteria for either fried and baked fish along with all the fixings, beverages, and great fellowship. The fish is great and the company is even better!"
+      },
+    {
+        "title": "St. Marks Soup Supper",
+        "slug": "st-marks-soup-supper-1",
+        "categories": ["dinner"],
+        "startDate": "2023-02-24T16:30:00-06:00",
+        "endDate": "2023-03-31T19:00:00-06:00",
+        "parishId": 145,
+        "website": "https://onestrongfamily.org/lent",
+        "description": "Soup supper followed by Stations of the Cross at 7pm"
+      }
+]
