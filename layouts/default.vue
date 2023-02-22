@@ -27,7 +27,7 @@ export default {
   name: 'DefaultLayout',
   data() {
     return {
-      title: '2022 Lenten Meals',
+      title: '2023 Lenten Meals',
     }
   },
 }

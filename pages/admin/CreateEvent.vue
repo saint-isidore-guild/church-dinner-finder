@@ -62,7 +62,8 @@ export default {
   },
   computed: {
     eventData() {
-      const springAhead = new Date('2022-03-14')
+      // TODO calculate
+      const springAhead = new Date('2023-03-12')
       return {
         title: this.event.title,
         description: this.event.description,

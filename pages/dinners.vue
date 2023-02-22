@@ -21,7 +21,7 @@ import parishes from '@/util/parishes'
 export default {
   name: 'DinnersPage',
   async asyncData({ $content }) {
-    let events = await $content('events/2022')
+    let events = await $content('events/2023')
       .sortBy('startDate', 'asc')
       .where({ categories: { $contains: 'dinner' } })
       .fetch()
@@ -36,7 +36,7 @@ export default {
   },
   head() {
     return {
-      title: '2022 Dinners',
+      title: '2023 Dinners',
     }
   },
 }
